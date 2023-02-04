@@ -1,6 +1,6 @@
 '''
-Faça um programa que peça um certa quantidade de notas e calcule a media do alunos.
-O programa será capaz de identificar a quantidade de notas e calcular e media.
+Faça um programa que peça um certa quantidade de notas e calcule a media do aluno.
+O programa será capaz de identificar a quantidade de notas e calcular a media.
 '''
 
 print('='*40)
