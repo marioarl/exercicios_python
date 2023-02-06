@@ -7,3 +7,5 @@ dias = ("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado")
 n = int(input('Digite um numero correspondente ao dias da semana: '))
 if n >=0 or n <=7:
     print(f'O dia da semana digitado foi {dias[n-1]}')
+else:
+    print('Valor inválido')
