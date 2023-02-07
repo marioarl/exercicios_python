@@ -45,7 +45,10 @@ total = preco * qtd
 desconto = 0
 print('Qual a forma de pagamento? ')
 print('[ 1 ] - Cartão TABAJARA (desconto de 5%)\n[ 2 ] - Dinheiro (desconto de 10%)\n[ 3 ] - Outros Cartões (Preço normal)')
-pag = int(input('>>> '))
+while True:
+    pag = int(input('>>> '))
+    if pag > 0 and pag <=3:
+        break
 if pag == 1:
     nomPag = 'Cartão Tabajara'
     desconto = total * 5 / 100
