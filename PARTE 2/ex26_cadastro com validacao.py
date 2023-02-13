@@ -35,8 +35,12 @@ while True:
             break
     print('\033[31mERRO! Salario deve ser maior que 0\033[m')
 
-while True:    
-    sexo = str(input('Sexo [M/F]: ')).upper().strip()[0]
+while True:
+    try:   
+        sexo = str(input('Sexo [M/F]: ')).upper().strip()[0]
+    except IndexError:
+        print("\033[31mERRO! Campo salario deve ser preenchido\033[m")
+        continue
     if sexo in "MF":
         break
     print('\033[31mERRO! Digite apenas M ou F\033[m')
