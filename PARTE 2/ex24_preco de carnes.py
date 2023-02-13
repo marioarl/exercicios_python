@@ -49,6 +49,7 @@ while True:
     pag = int(input('>>> '))
     if pag > 0 and pag <=3:
         break
+    print('\033[31mERRO!Digite as opções F, A ou P\033[m')
 if pag == 1:
     nomPag = 'Cartão Tabajara'
     desconto = total * 5 / 100
