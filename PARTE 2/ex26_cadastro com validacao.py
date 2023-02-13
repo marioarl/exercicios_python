@@ -29,7 +29,7 @@ while True:
     try:
         salario = float(input('Salário R$: '))     
     except ValueError:
-        print("ERRO! Campo salario deve ser preenchido")
+        print("\033[31mERRO! Campo salario deve ser preenchido\033[m")
         continue
     if salario > 0:
             break
