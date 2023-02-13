@@ -55,7 +55,7 @@ while True:
         break
     print('ERRO! Digite apenas "S", "C", "V", "D"')
 print(f'As informações digitadas foram:')
-print(f'{"Nome":<20}{"Idade":<5}{"Salário":>12}{"Sexo":>8}{"Estado Civil":>15}')
-print('-'*60)
-print(f'{nome:<20}{idade:>5}{salario:>12.2f}{sexo:>8}{estadoC:>9}')
+print(f'{"Nome":<25}{"Idade":<5}{"Salário":>12}{"Sexo":>8}{"Estado Civil":>15}')
+print('-'*65)
+print(f'{nome:<25}{idade:>5}{salario:>12.2f}{sexo:>8}{estadoC:>9}')
 print()
