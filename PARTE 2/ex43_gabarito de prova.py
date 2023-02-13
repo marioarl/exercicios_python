@@ -19,7 +19,6 @@ Gabarito da Prova:
 10 - A
 '''
 from os import system
-from time import sleep
 totAlunos = maior = menor = somaNotas = 0
 nomeMaior = nomeMenor = ""
 
