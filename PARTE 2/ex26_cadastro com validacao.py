@@ -16,7 +16,11 @@ while True:
         break
     print('ERRO!! Nome deve ter mais de 3 caracteres')
 while True:
-    idade = int(input('Idade:'))
+    try:
+        idade = int(input('Idade:'))
+    except ValueError:
+        print('\033[31mERRO!Campo deve ser preenchido\033[m')
+        continue
     if idade >=0 and idade <=150:
         break
     print('ERRO" Idade de ser entre 0 e 150')
