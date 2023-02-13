@@ -46,7 +46,11 @@ while True:
     print('\033[31mERRO! Digite apenas M ou F\033[m')
 
 while True:
-    estadoC = str(input('Estado Civil\n[ S ] - Solteiro(a) \n[ C ] - Casado(a)\n[ V ] - Viuvo(a)\n[ D ] - Divorciado(a)\n>>> ')).upper().strip()[0]
+    try:
+        estadoC = str(input('Estado Civil\n[ S ] - Solteiro(a) \n[ C ] - Casado(a)\n[ V ] - Viuvo(a)\n[ D ] - Divorciado(a)\n>>> ')).upper().strip()[0]
+    except IndexError:
+        print("\033[31mERRO! Campo salario deve ser preenchido\033[m")
+        continue
     if estadoC in 'SCVD':
         break
     print('ERRO! Digite apenas "S", "C", "V", "D"')
