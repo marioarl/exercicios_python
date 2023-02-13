@@ -23,7 +23,7 @@ while True:
         continue
     if idade >=0 and idade <=150:
         break
-    print('ERRO" Idade de ser entre 0 e 150')
+    print('\033[31mERRO" Idade de ser entre 0 e 150\033[m')
 
 while True:
     try:
