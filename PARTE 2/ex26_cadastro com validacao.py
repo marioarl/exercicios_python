@@ -14,7 +14,7 @@ while True:
     nome = str(input('Nome: '))
     if len(nome) > 3:
         break
-    print('ERRO!! Nome deve ter mais de 3 caracteres')
+    print('\033[31mERRO!! Nome deve ter mais de 3 caracteres\033[m')
 while True:
     try:
         idade = int(input('Idade:'))
