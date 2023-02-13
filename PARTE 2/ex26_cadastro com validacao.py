@@ -39,7 +39,7 @@ while True:
     sexo = str(input('Sexo [M/F]: ')).upper().strip()[0]
     if sexo in "MF":
         break
-    print('ERRO! Digite apenas M ou F')
+    print('\033[31mERRO! Digite apenas M ou F\033[m')
 
 while True:
     estadoC = str(input('Estado Civil\n[ S ] - Solteiro(a) \n[ C ] - Casado(a)\n[ V ] - Viuvo(a)\n[ D ] - Divorciado(a)\n>>> ')).upper().strip()[0]
