@@ -33,7 +33,7 @@ while True:
         continue
     if salario > 0:
             break
-    print('ERRO! Salario deve ser maior que 0')
+    print('\033[31mERRO! Salario deve ser maior que 0\033[m')
 
 while True:    
     sexo = str(input('Sexo [M/F]: ')).upper().strip()[0]
