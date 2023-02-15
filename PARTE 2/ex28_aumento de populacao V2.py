@@ -6,6 +6,8 @@ o programa encerre quando o usuario informar NÃO em continuar.
 OBS: O programa deverá ser capaz de identificar se a populacao do pais A é maior que a do país B e 
 efetue os calculos corretos
 '''
+from colorama import init, Fore
+init(autoreset=True)
 from os import system
 from time import sleep
 while True:
@@ -17,7 +19,7 @@ while True:
         paisA = str(input('Nome do país A: ')).strip()
         if paisA.isalpha():
             break
-        print('ERRO! Este campo deverá ter apenas LETRAS')      
+        print(Fore.RED + 'ERRO! Este campo deverá ter apenas LETRAS')      
     popA = int(input(f'População do pais {paisA}: '))
     taxaA = float(input(f'Taxa de crescimento do pais {paisA} (%): '))
     print('.'*80)
@@ -26,7 +28,7 @@ while True:
         paisB = str(input('Nome do país B: ')).strip()
         if paisB.isalpha():
             break
-        print('ERRO! Este campo deverá ter apenas LETRAS')
+        print(Fore.RED + 'ERRO! Este campo deverá ter apenas LETRAS')
     popB = int(input(f'População do pais {paisB}: '))
     taxaB = float(input(f'Taxa de crescimento do pais {paisB} (%): '))
     anos = 0
@@ -53,7 +55,7 @@ while True:
         op = str(input('\nContinuar? [S/N]: ')).strip().upper()[0]
         if op in "SN":
             break
-        print('ERRO! Digite apenas S ou N')
+        print(Fore.RED + 'ERRO! Digite apenas S ou N')
     if op in "N":
         print('FINALIZANDO...')
         sleep(1.5)
