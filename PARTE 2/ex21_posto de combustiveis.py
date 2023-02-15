@@ -7,12 +7,14 @@ Gasolina: até 20 litros, desconto de 4% por litro acima de 20 litros, desconto 
 Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina),
 calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 4,70 o preço do litro do álcool é R$ 3,70.
 '''
+from colorama import init, Fore,Back,Style
+init(autoreset= True)
 print('-'*50)
 print('POSTO TABAJARA'.center(50))
 print('-'*50)
-print('\033[33mPREÇOS'.center(50))
-print(f'{"GASOLINA":.<30}R${"4,70"} p/ LITRO')
-print(f'{"ALCOOL":.<30}R${"3,70"} p/ LITRO\033[m')
+print(Fore.YELLOW + 'PREÇOS'.center(50))
+print(f'{Fore.YELLOW}{"GASOLINA":.<30}R${"4,70"} p/ LITRO')
+print(f'{Fore.YELLOW}{"ALCOOL":.<30}R${"3,70"} p/ LITRO')
 litros = float(input('Quantidade de litros: '))
 tipo = str(input('G - Gasolina\nA - Alcool \n>>> ')).strip().upper()[0]
 if tipo in "G":
