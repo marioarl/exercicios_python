@@ -2,6 +2,8 @@
 Credito : https://wiki.python.org.br/EstruturaSequencial
 Faça um programa que calcule o mostre a média aritmética de N notas.
 '''
+from colorama import init, Fore
+init(autoreset=True)
 media = soma = cont = 0
 
 while True:
@@ -13,7 +15,7 @@ while True:
         op = str(input('Continuar? [S/N] ')).strip().upper()[0]
         if op in "SN":
             break
-        print('ERRO! Digite apenas S ou N')
+        print(Fore.RED + 'ERRO! Digite apenas S ou N')
     if op == "N":
         break    
 
