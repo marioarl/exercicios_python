@@ -9,6 +9,8 @@ um desconto de 10% sobre este total.
 Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e 
 escreva o valor a ser pago pelo cliente.
 '''
+from colorama import Back, Fore, init
+init(autoreset=True)
 print('-='*30)
 print('QUITANDA DO MANÉ'.center(60))
 print('-='*30)
@@ -32,10 +34,10 @@ print(f'{"Produto":<20}{"Qtd(Kg)":<10}{"Preço(R$)":<10}{"Total(R$)":<10}')
 print('-'*50)
 print(f'{"Morango":<20}{morango:<10.2f}{preco1:>8.2f}{subTotal1:>10.2f}')
 print(f'{"Maça":<20}{maca:<10.2f}{preco2:>8.2f}{subTotal2:>10.2f}')
-print(f'\033[31m{"SUBTOTAL":<20}{subTotal1+subTotal2:>28.2f}\033[m')
+print(f'{Fore.RED}{"SUBTOTAL":<20}{subTotal1+subTotal2:>28.2f}')
 print('-'*50)
 if morango + maca > 8 or total > 25:
     desconto = total * 10 /  100
-    print(f'\033[33m{"TOTAL DAS COMPRAS COM 10% de desconto"}{"":>6}{(subTotal1+subTotal2) - (desconto):.2f}\033[m')
+    print(f'{Fore.YELLOW}{"TOTAL DAS COMPRAS COM 10% de desconto"}{"":>6}{(subTotal1+subTotal2) - (desconto):.2f}')
 else:
-    print(f'\033[33m{"TOTAL DAS COMPRAS":<44}{subTotal1+subTotal2:.2f}\033[m')
+    print(f'{Fore.YELLOW}{"TOTAL DAS COMPRAS":<44}{subTotal1+subTotal2:.2f}\033[m')
