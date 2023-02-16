@@ -13,6 +13,8 @@ Vou montar a tabuada de 5 começando em 4 e terminando em 7:
 5 X 7 = 35
 Obs: Você deve verificar se o usuário não digitou o final menor que o inicial.
 '''
+from colorama import init, Fore
+init(autoreset=True)
 print('='*40)
 print('TABUADA'.center(40))
 print('='*40)
@@ -22,7 +24,7 @@ while True:
     fim = int(input('Termina em: '))
     if fim > ini:
         break
-    print('ERRO! valor final menor que o inicial, digite novamente')
+    print(Fore.RED + 'ERRO! valor final menor que o inicial, digite novamente')
 print('='*40)
 print(f'Vou montar a tabuada de {tabuada} começando em {ini} e terminando em {fim}:')
 for t in range(ini, fim+1):
