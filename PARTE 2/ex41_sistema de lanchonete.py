@@ -16,6 +16,8 @@ a ser pago por item (preço * quantidade) e o total geral do pedido. Considere q
 quando o pedido deve ser encerrado.
 '''
 from os import system
+from colorama import Fore, Back, Style, init
+init(autoreset=True)
 system('cls')
 pedido = 1 #numero do pedido
 totalDia = 0 # total vendido em um dia
@@ -26,16 +28,16 @@ while True:
     temp.clear()
     total = 0 #total do pedido
     system('cls')
-    print('='*50)
-    print('LANCHONETE LARICA (CARDÁPIO)'.center(50))
-    print(f'{"Especificação":<18}{"Código":<6}{"Preco":>8}')
-    print(f'{"Cachorro Quente":<18}{"100":<6}{"R$ 1,20":>10}')
-    print(f'{"Bauru Simples":<18}{"101":<6}{"R$ 1,30":>10}')
-    print(f'{"Bauru com ovo":<18}{"102":<6}{"R$ 1,50":>10}')
-    print(f'{"Hamburguer":<18}{"103":<6}{"R$ 1,20":>10}')
-    print(f'{"Cheeseburguer":<18}{"104":<6}{"R$ 1,30":>10}')
-    print(f'{"Refrigerante":<18}{"105":<6}{"R$ 1,00":>10}')
-    print('='*50)
+    print(Back.WHITE + '='*50)
+    print(Back.WHITE +'LANCHONETE LARICA (CARDÁPIO)'.center(50))
+    print(f'{Back.WHITE}{"Especificação":<18}{"Código":<6}{"Preco":>8}{"":>18}')
+    print(f'{Back.WHITE}{"Cachorro Quente":<18}{"100":<6}{"R$ 1,20":>10}{"":>16}')
+    print(f'{Back.WHITE}{"Bauru Simples":<18}{"101":<6}{"R$ 1,30":>10}{"":>16}')
+    print(f'{Back.WHITE}{"Bauru com ovo":<18}{"102":<6}{"R$ 1,50":>10}{"":>16}')
+    print(f'{Back.WHITE}{"Hamburguer":<18}{"103":<6}{"R$ 1,20":>10}{"":>16}')
+    print(f'{Back.WHITE}{"Cheeseburguer":<18}{"104":<6}{"R$ 1,30":>10}{"":>16}')
+    print(f'{Back.WHITE}{"Refrigerante":<18}{"105":<6}{"R$ 1,00":>10}{"":>16}')
+    print(Back.WHITE + '='*50)
     print(f'Pedido No. {pedido}')
     while True:
         print('.'*50)
