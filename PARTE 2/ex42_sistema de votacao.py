@@ -18,14 +18,20 @@ Para finalizar o conjunto de votos tem-se o valor zero.
 '''
 from os import system
 from time import sleep
+from colorama import init, Fore, Back
+init(autoreset=True)
 system('cls')
 cand1 = cand2 = cand3 = cand4 = nulo = branco = totVotos = 0
 while True:
-    print('='*50)
-    print('SISTEMA DE VOTAÇÃO - ETRURIA'.center(50))
-    print('='*50)
+    print(Back.RED + '='*50)
+    print(Back.RED +'SISTEMA DE VOTAÇÃO - ETRURIA'.center(50))
+    print(Back.RED +'='*50)
     print('[ 1 ] - Tarconte\n[ 2 ] - Publio Virgilio\n[ 3 ] - Herodoto\n[ 4 ] - Dionisio\n[ 5 ] - Voto Nulo\n[ 6 ] - Voto em Branco')
-    voto = int(input('>>> (Para encerrar aperte 0) '))
+    while True:
+        voto = int(input('>>> (Para encerrar aperte 0) '))
+        if voto > 0 and voto <=6:
+            break
+        print(f'{Fore.RED}{"ERRO! Escolha somente as opções acima!"}')
     if voto == 1:
         cand1 += 1
     elif voto == 2:
@@ -45,9 +51,9 @@ while True:
     print('VOTO CADASTRADO...')
     sleep(0.5)
     system('cls')
-print('-='*20)
-print('RESULTADO DA ELEIÇÃO'.center(40))
-print('-='*20)
+print(Fore.GREEN + '-='*20)
+print(Fore.GREEN +'RESULTADO DA ELEIÇÃO'.center(40))
+print(Fore.GREEN +'-='*20)
 print(f'Tarconte........... {cand1}','votos' if cand1 > 1 else 'voto')
 print(f'Publio Virgilio.... {cand2}','votos' if cand2 > 1 else 'voto')
 print(f'Herodoto........... {cand3}','votos' if cand3 > 1 else 'voto')
