@@ -19,6 +19,8 @@ Gabarito da Prova:
 10 - A
 '''
 from os import system
+from colorama import init, Fore
+init(autoreset=True)
 totAlunos = maior = menor = somaNotas = 0
 nomeMaior = nomeMenor = ""
 
@@ -44,9 +46,9 @@ while True:
                 res = str(input(f'Resposta: ')).strip().upper()[0]
                 if res in "ABCDE":
                     break
-                print('\033[31mERRO!Escolha apenas as alternativas acima!\033[m')
+                print(Fore.RED + 'ERRO!Escolha apenas as alternativas acima!')
             except (IndexError, NameError, ValueError):
-                print('\033[31mERRO!Escolha apenas as alternativas acima!\033[m')        
+                print(Fore.RED + 'ERRO!Escolha apenas as alternativas acima!')        
         if p == 0:
             if res == "A":
                 ponto += 1
