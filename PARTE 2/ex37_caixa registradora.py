@@ -17,21 +17,23 @@ Troco: R$ 11.00
 '''
 from os import system
 from time import sleep
+from colorama import init, Fore, Back, Style
+init(autoreset=True)
 while True:
     system('cls')
     soma = 0
     p = 1
-    print('='*50)
-    print('LOJAS TABAJARA'.center(50))
-    print('='*50)
+    print(Back.WHITE + '='*50)
+    print(Back.WHITE + 'LOJAS TABAJARA'.center(50))
+    print(Back.WHITE + '='*50)
     print('Registre os produtos: (digite 0 para encerrar)')
     while True:
-        valor = float(input(f' - Produto {p}: R$ '))
+        valor = float(input(f' {Fore.GREEN}- Produto {p}: {Style.RESET_ALL}R$ '))
         p += 1
         soma += valor
         if valor == 0:
             break
-    print(f'\033[31mTotal: R$ {soma:.2f}\033[m')
+    print(f'{Fore.RED}Total: R$ {soma:.2f}')
     print('-'*50)
     forma = str(input('Qual a forma de pagamaneto?\n[ A ] - Dinheiro\n[ B ] - Cartão Débito\n[ C ] - Cartão de Crédito\n>>> ')).strip().upper()[0]
     if forma in "A":
