@@ -5,6 +5,8 @@ e que a população de B seja 200.000 habitantes com uma taxa de crescimento de 
 Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou 
 iguale a população do país B, mantidas as taxas de crescimento.
 '''
+from colorama import Fore, init
+init(autoreset=True)
 a = 80000
 b = 200000
 anos = 0
@@ -14,4 +16,4 @@ while True:
     anos += 1
     if a >= b:
         break
-print(f'O país A levará {anos} anos para que se iguale ou supere a população do país B')
+print(f'O país A levará {Fore.CYAN}{anos} anos {Fore.RESET}para que se iguale ou supere a população do país B')
