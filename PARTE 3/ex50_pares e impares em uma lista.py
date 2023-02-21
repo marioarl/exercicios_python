@@ -3,7 +3,8 @@ Credito : https://wiki.python.org.br/EstruturaSequencial
 
 Faça um Programa que leia 20 números inteiros e armazene-os num vetor. Armazene os números pares no vetor PAR e os números IMPARES no vetor impar. Imprima os três vetores.
 '''
-
+from colorama import Fore, init
+init(autoreset=True)
 numeros = []
 impar = []
 par = []
@@ -16,8 +17,8 @@ for n in range(1,21):
     else:
         impar.append(num)
 
-print(f'Os numeros digitados foram: {numeros}')
-print(f'Numeros PARES...: {par}')
-print(f'Numeros IMPARES.: {impar}')
+print(f'Os numeros digitados foram: {Fore.RED}{numeros}')
+print(f'Numeros PARES...: {Fore.GREEN}{par}')
+print(f'Numeros IMPARES.: {Fore.MAGENTA}{impar}')
     
 
