@@ -9,6 +9,9 @@ c) quanto pagou ao sindicato
 d) o salario liquido
 e) calcule os descontos e o salario liquido
 '''
+from colorama import Fore, init, Back
+init(autoreset=True)
+
 qtyHoras = float(input('Quantidade de horas trabalhadas em 1 mes: '))
 valorHora = float(input('Valor por Hora trabalhada: '))
 sBruto = qtyHoras * valorHora
@@ -16,9 +19,9 @@ ir = sBruto * 11/100
 inss = sBruto * 8 / 100
 sind = sBruto * 5 / 100
 descontos = ir + inss + sind
-print('='*45)
-print('DEMONSTRATIVO DE PAGAMENTO'.center(45))
-print('='*45)
+print(Back.GREEN + Fore.BLACK + '='*45)
+print(Back.GREEN + Fore.BLACK + 'DEMONSTRATIVO DE PAGAMENTO'.center(45))
+print(Back.GREEN + Fore.BLACK + '='*45)
 print(f'{"+ Salário Bruto":.<30}', f'R${sBruto:>12.2f}')
 print(f'{"- IR(11%)":.<30}', f'R${ir:>12.2f}')
 print(f'{"- INSS(8%)":.<30}', f'R${inss:>12.2f}')
