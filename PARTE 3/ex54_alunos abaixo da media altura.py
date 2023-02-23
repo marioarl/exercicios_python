@@ -8,29 +8,29 @@ from random import randrange, uniform
 system('cls')
 
 
-idade = []
-altura = []
-alunoM13 = []
-media_13 = []
+idade = [randrange(1,20) for i in range(30)]
+altura = [format(uniform(1,2), '.2f') for a in range(30)]
+altura_float = [float(x) for x in altura] # fazendo um cast de str para float
+maior13 = []
+media13 = []
 
-for i in range(30):
-    idadeAleatorio = idade.append(randrange(1, 20))
-    alturaAleatorio = altura.append(uniform(1, 2))
+for x in range(30):
+    if idade[x] > 13:
+        maior13.append(altura_float[x])
 
-for i in range(30):
-    if idade[i] > 13:
-        alunoM13.append(altura[i])
+media = sum(maior13)/len(maior13)
 
-media = sum(alunoM13) / len(alunoM13)
+for i in range(len(maior13)):
+    if maior13[i] < media:
+        media13.append(maior13[i])
 
-for i in range(len(alunoM13)):
-    if alunoM13[i] < media:
-        media_13.append(alunoM13[i])
 print('='*60)
 print('RESUMO'.center(60))
 print('='*60)
-print(f'Idade dos alunos............: {idade}')
-print(f'Altura dos alunos (cm)......: {altura}')
-print(f'Alunos acima de 13 anos.....: {len(alunoM13)} -> Alturas: {alunoM13}')
-print(f'Media de altura.............: {media}')
-print(f'Alunos acima de 13 anos abaixo da média de altura: {len(media_13)} -> {media_13}')
+print(f'Idade dos alunos..........: {idade}')
+print(f'Altura dos alunos (m).....: {altura_float}')
+print(f'Alunos acima de 13 anos...: {len(maior13)} --> Alturas: {maior13}')
+print(f'Média de altura...........: {media:.2f}')
+print(f'Alunos acima de 13 anos abaixo da média de altura: {len(media13)} -> {media13}')
+print()
+
