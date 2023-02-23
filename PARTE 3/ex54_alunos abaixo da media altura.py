@@ -15,7 +15,7 @@ media_13 = []
 
 for i in range(30):
     idadeAleatorio = idade.append(randrange(1, 20))
-    alturaAleatorio = altura.append(randrange(50, 200))
+    alturaAleatorio = altura.append(uniform(1, 2))
 
 for i in range(30):
     if idade[i] > 13:
@@ -34,7 +34,3 @@ print(f'Altura dos alunos (cm)......: {altura}')
 print(f'Alunos acima de 13 anos.....: {len(alunoM13)} -> Alturas: {alunoM13}')
 print(f'Media de altura.............: {media}')
 print(f'Alunos acima de 13 anos abaixo da média de altura: {len(media_13)} -> {media_13}')
-'''print('\nA idade dos alunos são:\n',idade,'\nA altura dos alunos em cm são:\n',altura)
-print('\nForam ',len(alunoM13),' alunos com idade acima de 13 anos que são:\n',alunoM13)
-print('\nA média de altura desses ',len(alunoM13),' alunos é:', media,'cm')
-print('\nForam ',len(media_13),' alunos com mais de 13 anos possuem altura inferior à média de altura:\n',media_13)'''
