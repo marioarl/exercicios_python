@@ -8,7 +8,7 @@ Faça um programa que receba a temperatura média de cada mês do ano e armazene
 from os import system
 from random import randrange
 system('cls')
-temps = [randrange(5,40) for x in range(12)]
+temps = [randrange(10,40) for x in range(12)]
 mes = ['Janeiro', 'fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto',
         'Setembro', 'Outubro', 'Novembro', 'Dezembro']
 media = sum(temps) / 12
