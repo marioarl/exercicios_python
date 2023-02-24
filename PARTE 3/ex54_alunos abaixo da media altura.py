@@ -4,6 +4,8 @@ Credito : https://wiki.python.org.br/EstruturaSequencial ref: Ex listas 12
 Foram anotadas as idades e alturas de 30 alunos. Faça um Programa que determine quantos alunos com mais de 13 anos possuem altura inferior à média de altura desses alunos.
 '''
 from os import system
+from colorama import Fore, init
+init(autoreset=True)
 from random import randrange, uniform
 system('cls')
 
@@ -27,10 +29,10 @@ for i in range(len(maior13)):
 print('='*60)
 print('RESUMO'.center(60))
 print('='*60)
-print(f'Idade dos alunos..........: {idade}')
-print(f'Altura dos alunos (m).....: {altura_float}')
-print(f'Alunos acima de 13 anos...: {len(maior13)} --> Alturas: {maior13}')
-print(f'Média de altura...........: {media:.2f}')
-print(f'Alunos acima de 13 anos abaixo da média de altura: {len(media13)} -> {media13}')
+print(f'Idade dos alunos..........: {Fore.YELLOW}{idade}')
+print(f'Altura dos alunos (m).....: {Fore.BLUE}{altura_float}')
+print(f'Alunos acima de 13 anos...: {Fore.GREEN}{len(maior13)}\033[m --> Alturas: {Fore.GREEN}{maior13}')
+print(f'Média de altura...........: {Fore.RED}{media:.2f}')
+print(f'Alunos acima de 13 anos abaixo da média de altura: {Fore.MAGENTA}{len(media13)} -> {media13}')
 print()
 
