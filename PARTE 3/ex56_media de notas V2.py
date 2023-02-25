@@ -48,4 +48,5 @@ for n in notas:
         abaixode7 += 1
 print(f'Qtd de valores acima da média: {acimaMedida}')
 print(f'Qtd de valores abaixo de 7...: {abaixode7}')
+print(Fore.RED + 'FIM DO PROGRAMA')
 
