@@ -17,7 +17,8 @@ for a in range(1,11):
     medias.append(media)
     system('cls')
 print(f'{"Aluno":<10}{"Média":>5}')
-for m in medias:
+for i, m in enumerate(medias):
+    print(f'{i+1:<10}{m:>5.2f}')
     if m >=7:
         cont += 1
 
