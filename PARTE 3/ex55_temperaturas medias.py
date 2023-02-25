@@ -21,7 +21,7 @@ for i, t in enumerate(temps):
 
 print('==== TEMPERATURAS ACIMA DA MÉDIA ANUAL - POR MÊS ====')
 print(f'Média anual: {media:.1f}')
-print(f'\n{"Mes":<10}{"Temperatura":>10}')
+print(f'\n{"Mês":<10}{"Temperatura":>10}')
 print(f'{"===":<10}{"===========":>10}')
 for i, t in enumerate(temps):
     if t > media:
