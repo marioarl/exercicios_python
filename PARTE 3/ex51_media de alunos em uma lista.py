@@ -16,6 +16,7 @@ for a in range(1,11):
     media = somaNota / 4
     medias.append(media)
     system('cls')
+print(f'{"Aluno":<10}{"Média":>5}')
 for m in medias:
     if m >=7:
         cont += 1
