@@ -69,3 +69,4 @@ sorted(apuracao, reverse=False)
 for v in set(apuracao):
     print(f'{v:<10}{apuracao.count(v):>3}{percentual(apuracao.count(v),len(apuracao)):>10.2f}')
     
+#PROGRAMA NÃO TERMINADO
