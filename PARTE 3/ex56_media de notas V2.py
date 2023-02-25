@@ -14,6 +14,8 @@ Encerre o programa com uma mensagem;
 '''
 from os import system
 from random import randrange
+from colorama import Fore, init, Style
+init(autoreset=True)
 system('cls')
 notas = []
 acimaMedida = abaixode7 = 0
@@ -29,7 +31,7 @@ media = sum(notas) / len(notas)
 tam = ((len(notas)*4) + 24) / 2
 tamanho = int(tam)
 
-print('='*tamanho, ' RESUMO ', '='*tamanho)
+print(Style.BRIGHT + Fore.YELLOW + '='*tamanho + ' RESUMO ' + '='*tamanho)
 print(f'Foram digitadas {len(notas)} notas')
 print(f'As notas digitas foram........: ', end="")
 for n in notas:
