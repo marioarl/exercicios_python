@@ -6,7 +6,7 @@ from colorama import Fore, init
 init(autoreset=True)
 dias = ("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado")
 
-n = int(input('Digite um numero correspondente ao dias da semana: '))
+n = int(input('Digite um numero correspondente ao dia da semana: '))
 if n >=0 and n <=7:
     print(f'O dia da semana digitado foi {Fore.GREEN}{dias[n-1]}')
 else:
