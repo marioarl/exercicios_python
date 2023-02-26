@@ -16,6 +16,8 @@ Após o aumento ser realizado, informe na tela:
  - novo salário, após o aumento.
 
 '''
+from colorama import Fore, init
+init(autoreset=True)
 aumento = 0
 perc = ""
 salario = float(input('Informe o valor do salário: R$'))
@@ -37,6 +39,6 @@ print('='*50)
 print(f'{"Salário antes do reajuste":.<40}' f'R${salario:.2f}')
 print(f'{"Percentual de aumento aplicado":.<40}' f'{perc}')
 print(f'{"Valor do aumento":.<40}' f'R${aumento:.2f}')
-print("\033[33m*"*50)
-print(f'{"* Novo salário após aumento":.<40}' f'R${salario + aumento:.2f} *')
-print("*"*50, "\033[m")
+print(Fore.YELLOW + "*"*50)
+print(f'{Fore.YELLOW}{"* Novo salário após aumento":.<40}' f'R${salario + aumento:.2f} *')
+print(Fore.YELLOW + "*"*50)
