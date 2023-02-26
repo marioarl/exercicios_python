@@ -13,4 +13,4 @@ elif turno in "V":
 elif turno in "N":
     print('BOA NOITE!')
 else:
-    print("VALOR INVALIDO!")
+    print("VALOR INVÁLIDO!")
