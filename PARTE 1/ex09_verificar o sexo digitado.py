@@ -8,4 +8,4 @@ if sexo in "M":
 elif sexo in "F":
     print(f'Voce digitou o sexo Feminino')
 else:
-    print('Sexo Invalido')
+    print('Sexo Inválido')
