@@ -11,7 +11,8 @@ system('cls')
 n1 = float(input('Digite o 1o. numero: '))
 n2 = float(input('Digite o 2o. numero: '))
 res = 0
-print(Fore.BLUE + "1 - \033[mSomar\n2 - Subtrair\n3 - Dividir\n4 - Multiplicar")
+print(Fore.BLUE + "1 \033[m- Somar\n2 - Subtrair\n3 - Dividir\n4 - Multiplicar")
+print(Fore.YELLOW + "2 \033[m - Subtrair")
 while True:
     op = str(input('Qual operação deseja realizar? ')).strip()[0]
     if op in "1234":
