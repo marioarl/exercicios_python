@@ -5,12 +5,13 @@ Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual ope
  - positivo ou negativo;
  - inteiro ou decimal.
 '''
+from colorama import Fore
 from os import system
 system('cls')
 n1 = float(input('Digite o 1o. numero: '))
 n2 = float(input('Digite o 2o. numero: '))
 res = 0
-print("1 - Somar\n2 - Subtrair\n3 - Dividir\n4 - Multiplicar")
+print(Fore.BLUE + "1 - \033[mSomar\n2 - Subtrair\n3 - Dividir\n4 - Multiplicar")
 while True:
     op = str(input('Qual operação deseja realizar? ')).strip()[0]
     if op in "1234":
