@@ -5,6 +5,8 @@ Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual ope
  - positivo ou negativo;
  - inteiro ou decimal.
 '''
+from os import system
+system('cls')
 n1 = float(input('Digite o 1o. numero: '))
 n2 = float(input('Digite o 2o. numero: '))
 res = 0
