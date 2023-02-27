@@ -30,7 +30,7 @@ elif op == "3":
     print(f'A {Fore.GREEN}divisão\033[m entre {n1} e {n2} = {res}')
 elif op == "4":
     res = n1 * n2
-    print(f'A multiplicação entre {n1} e {n2} = {res}')
+    print(f'A {Fore.MAGENTA}multiplicação\033[m entre {n1} e {n2} = {res}')
 print(f'O resultado da operação indica que o numero é ', end="")
 if res % 2 == 0:
     print('PAR, ', end="")
