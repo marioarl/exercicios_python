@@ -11,7 +11,7 @@ system('cls')
 n1 = float(input('Digite o 1o. numero: '))
 n2 = float(input('Digite o 2o. numero: '))
 res = 0
-print(Fore.BLUE + "1 \033[m- Somar\n2 - Subtrair\n3 - Dividir\n4 - Multiplicar")
+print(Fore.BLUE + "1 \033[m- Somar")
 print(Fore.YELLOW + "2 \033[m - Subtrair")
 print(Fore.GREEN + "3 \033[m - Dividir")
 print(Fore.MAGENTA + "4 \033[m - Multiplicar")
@@ -24,7 +24,7 @@ if op == "1":
     print(f'A soma entre {n1} e {n2} = {res}')
 elif op == "2":
     res = n1 - n2
-    print(f'A subtração entre {n1} e {n2} = {res}')
+    print(f'A {Fore.YELLOW}subtração\033[m entre {n1} e {n2} = {res}')
 elif op == "3":
     res = n1 / n2
     print(f'A divisão entre {n1} e {n2} = {res}')
