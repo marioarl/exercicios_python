@@ -14,6 +14,7 @@ res = 0
 print(Fore.BLUE + "1 \033[m- Somar\n2 - Subtrair\n3 - Dividir\n4 - Multiplicar")
 print(Fore.YELLOW + "2 \033[m - Subtrair")
 print(Fore.GREEN + "3 \033[m - Dividir")
+print(Fore.MAGENTA + "4 \033[m - Multiplicar")
 while True:
     op = str(input('Qual operação deseja realizar? ')).strip()[0]
     if op in "1234":
