@@ -27,7 +27,7 @@ elif op == "2":
     print(f'A {Fore.YELLOW}subtração\033[m entre {n1} e {n2} = {res}')
 elif op == "3":
     res = n1 / n2
-    print(f'A divisão entre {n1} e {n2} = {res}')
+    print(f'A {Fore.GREEN}divisão\033[m entre {n1} e {n2} = {res}')
 elif op == "4":
     res = n1 * n2
     print(f'A multiplicação entre {n1} e {n2} = {res}')
