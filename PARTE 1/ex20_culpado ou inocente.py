@@ -36,4 +36,4 @@ elif cont == 3 or cont == 4:
 elif cont == 5:
     print('ASSASINO')
 else:
-    print('INOCENTE')
+    print(Fore.GREEN + 'INOCENTE')
