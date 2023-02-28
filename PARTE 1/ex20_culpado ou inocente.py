@@ -32,7 +32,7 @@ print('A pessoa é ', end="")
 if cont == 2:
     print(Fore.YELLOW + 'SUSPEITA')
 elif cont == 3 or cont == 4:
-    print('CUMPLICE')
+    print(Fore.CYAN + 'CUMPLICE')
 elif cont == 5:
     print('ASSASINO')
 else:
