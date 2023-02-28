@@ -30,7 +30,7 @@ if p5 in "S":
     cont += 1
 print('A pessoa é ', end="")
 if cont == 2:
-    print('SUSPEITA')
+    print(Fore.YELLOW + 'SUSPEITA')
 elif cont == 3 or cont == 4:
     print('CUMPLICE')
 elif cont == 5:
