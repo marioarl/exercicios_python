@@ -10,6 +10,7 @@ O programa deve no final emitir uma classificação sobre a participação da pe
 '''
 from os import system
 from colorama import Fore, init
+init(autoreset=True)
 system('cls')
 cont = 0
 p1 = str(input('1) Telefonou para a vitima?   [S/N]: ')).strip().upper()[0]
