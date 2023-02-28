@@ -10,6 +10,7 @@ calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do lit
 from os import system
 from colorama import init, Fore,Back,Style
 init(autoreset= True)
+system('cls')
 print('-'*50)
 print('POSTO TABAJARA'.center(50))
 print('-'*50)
