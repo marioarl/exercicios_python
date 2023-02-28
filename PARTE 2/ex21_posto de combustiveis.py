@@ -7,6 +7,7 @@ Gasolina: até 20 litros, desconto de 4% por litro acima de 20 litros, desconto 
 Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina),
 calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 4,70 o preço do litro do álcool é R$ 3,70.
 '''
+from os import system
 from colorama import init, Fore,Back,Style
 init(autoreset= True)
 print('-'*50)
