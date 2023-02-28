@@ -12,6 +12,7 @@ escreva o valor a ser pago pelo cliente.
 from os import system
 from colorama import Back, Fore, init
 init(autoreset=True)
+system('cls')
 print('-='*30)
 print('QUITANDA DO MANÉ'.center(60))
 print('-='*30)
