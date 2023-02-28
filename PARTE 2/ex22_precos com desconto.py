@@ -9,6 +9,7 @@ um desconto de 10% sobre este total.
 Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e 
 escreva o valor a ser pago pelo cliente.
 '''
+from os import system
 from colorama import Back, Fore, init
 init(autoreset=True)
 print('-='*30)
