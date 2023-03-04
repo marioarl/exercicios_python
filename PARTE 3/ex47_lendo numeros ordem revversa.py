@@ -3,7 +3,8 @@ Credito : https://wiki.python.org.br/EstruturaSequencial
 
 Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa
 '''
-
+from os import system
+system('cls')
 listNum = []
 
 for n in range(1,11):
