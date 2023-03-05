@@ -29,6 +29,8 @@ O Sistema Operacional mais votado foi o Unix, com 3500 votos, correspondendo a 4
 '''
 from os import system
 from collections import Counter
+from colorama import Fore, init
+init(autoreset=True)
 def percentual(votos, total):
     r = (votos / total) * 100
     return r
@@ -68,7 +70,11 @@ print('======== RESULTADO DA ENQUETE ========')
 print(f'{"Sistema operacional":<25}{"Votos":<8}{"%:":<2}')
 print(f'{"-------------------":<25}{"-----":<8}{"---":<2}')
 for r in range(0,6):
-    print(f'{sistema[r]:<25}{somaVotos(r+1):<8}{percentual(somaVotos(r+1), total):.1f}%')
+    #Imprimirá em vermelho se o sistema operacional for o vencedor
+    if vencedor[0][0]-1 == r:
+        print(Fore.RED + f'{sistema[r]:<25}{somaVotos(r+1):<8}{percentual(somaVotos(r+1), total):.1f}%')    
+    else:
+        print(f'{sistema[r]:<25}{somaVotos(r+1):<8}{percentual(somaVotos(r+1), total):.1f}%')
 
 
 print(f'O Sistema Operacional mais votado foi o {sistema[vencedor[0][0]-1]}, com {votoVenc} votos, correspondendo a {percentual(votoVenc,total):.1f}% dos votos.')
