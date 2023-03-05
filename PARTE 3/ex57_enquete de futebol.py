@@ -67,7 +67,7 @@ vencedor = contador.most_common(1)
 numeroVenc = vencedor[0][0] 
 votoVenc = vencedor[0][1]
 
-print('Enquete: Quem foi o melhor jogador?')
+print('Enquete: Qual foi o melhor jogador?')
 print('Resultado da votacao:')
 print(f'\nForam computados {len(apuracao)} votos')
 print(f'\n{"Jogador":<10}{"Votos":>5}{"%":>5}')
