@@ -42,6 +42,7 @@ O melhor jogador foi o número 9, com 4 votos, correspondendo a 50% do total de 
 
 '''
 from os import system
+from collections  import Counter
 def percentual(votos, total):
     r = (votos / total) * 100
     return r
@@ -49,7 +50,6 @@ def percentual(votos, total):
 
 system('cls')
 apuracao = []
-ranking = []
 while True:
     while True:
         voto = int(input('Numero do jogador (0=fim): '))
@@ -61,12 +61,20 @@ while True:
     if voto == 0:
         break
     apuracao.append(voto)
+#Variaveis para definir o vencedor, utilizando a classe Counter da biblioteca Collections
+contador = Counter(apuracao)
+vencedor = contador.most_common(1)
+numeroVenc = vencedor[0][0] 
+votoVenc = vencedor[0][1]
+
 print('Enquete: Quem foi o melhor jogador?')
 print('Resultado da votação:')
 print(f'\nForam computados {len(apuracao)} votos')
 print(f'\n{"Jogador":<10}{"Votos":>5}{"%":>5}')
-sorted(apuracao, reverse=False)
+
 for v in set(apuracao):
     print(f'{v:<10}{apuracao.count(v):>3}{percentual(apuracao.count(v),len(apuracao)):>10.2f}')
+
+print(f'O melhor jogador foi o número {numeroVenc}, com {votoVenc} votos, correspondendo a {percentual(votoVenc, len(apuracao))}% do total de votos.')
     
 #PROGRAMA NÃO TERMINADO
