@@ -68,13 +68,18 @@ numeroVenc = vencedor[0][0]
 votoVenc = vencedor[0][1]
 
 print('Enquete: Quem foi o melhor jogador?')
-print('Resultado da votação:')
+print('Resultado da votacao:')
 print(f'\nForam computados {len(apuracao)} votos')
 print(f'\n{"Jogador":<10}{"Votos":>5}{"%":>5}')
 
+#Colocando as informacoes em um arquivo externo
+arq = 'resultados.txt'
+f = open('Caminho do arquivo' + arq, 'w')
+f.write(f'Enquete: Quem foi o melhor jogador?\nResultado da votacaoo:\n\nForam computados {len(apuracao)} votos\n{"Jogador":<10}{"Votos":>5}{"%":>5}\n')
+
 for v in set(apuracao):
     print(f'{v:<10}{apuracao.count(v):>3}{percentual(apuracao.count(v),len(apuracao)):>10.2f}')
+    f.write(str(f'{v:<10}{apuracao.count(v):>3}{percentual(apuracao.count(v),len(apuracao)):>10.2f}\n'))
 
-print(f'O melhor jogador foi o número {numeroVenc}, com {votoVenc} votos, correspondendo a {percentual(votoVenc, len(apuracao))}% do total de votos.')
-    
-#PROGRAMA NÃO TERMINADO
+print(f'O melhor jogador foi o numero {numeroVenc}, com {votoVenc} votos, correspondendo a {percentual(votoVenc, len(apuracao)):.2f}% do total de votos.')
+f.write(str(f'O melhor jogador foi o numero {numeroVenc}, com {votoVenc} votos, correspondendo a {percentual(votoVenc, len(apuracao)):.2f}% do total de votos.'))
