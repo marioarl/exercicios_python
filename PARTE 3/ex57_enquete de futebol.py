@@ -75,7 +75,7 @@ print(f'\n{"Jogador":<10}{"Votos":>5}{"%":>5}')
 #Colocando as informacoes em um arquivo externo
 arq = 'resultados.txt'
 f = open('Caminho do arquivo' + arq, 'w')
-f.write(f'Enquete: Quem foi o melhor jogador?\nResultado da votacaoo:\n\nForam computados {len(apuracao)} votos\n{"Jogador":<10}{"Votos":>5}{"%":>5}\n')
+f.write(f'Enquete: Qual foi o melhor jogador?\nResultado da votacaoo:\n\nForam computados {len(apuracao)} votos\n{"Jogador":<10}{"Votos":>5}{"%":>5}\n')
 
 for v in set(apuracao):
     print(f'{v:<10}{apuracao.count(v):>3}{percentual(apuracao.count(v),len(apuracao)):>10.2f}')
