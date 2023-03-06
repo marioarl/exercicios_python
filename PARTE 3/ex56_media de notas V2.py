@@ -27,7 +27,7 @@ while True:
         break
     notas.append(n)
 media = sum(notas) / len(notas)
-#RESPONSIVIDADE DA BARRA RESUMO
+#RESPONSIVIDADE DA BARRA RESUMO DE ACORDO COM O TEXTO
 tam = ((len(notas)*4) + 24) / 2
 tamanho = int(tam)
 
