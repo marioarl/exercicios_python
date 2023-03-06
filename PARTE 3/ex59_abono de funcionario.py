@@ -64,5 +64,5 @@ for s,a in funcionario.items():
 
 print(f'\nForam processados {len(salarios)} colaboradores')
 print(f'Total gasto com abonos: R$ {sum(abono):.2f}')
-print(f'valor minimo pago a {abaixo_abono} colaboradores')
+print(f'Valor minimo pago a {abaixo_abono} colaboradores')
 print(f'Maior valor de abono pago: R$ {max(abono):.2f}')
