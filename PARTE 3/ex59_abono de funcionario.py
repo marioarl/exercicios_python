@@ -37,6 +37,8 @@ Maior valor de abono pago: R$ 900.00
 
 '''
 from os import system
+from colorama import Fore, init
+init(autoreset=True)
 salarios = []
 abono = []
 salario = 0
@@ -60,7 +62,10 @@ for s in salarios:
     print(f'Salario: R${s:.2f}')
 print(f'\n{"Salario":<12}{"Abono":>9}')
 for s,a in funcionario.items():
-    print(f'R$ {s:<12.2f} R${a:.2f}')
+    if a <= 100:
+        print(f'{Fore.RED}R$ {s:<12.2f} R${a:.2f}')    
+    else:
+        print(f'R$ {s:<12.2f} R${a:.2f}')
 
 print(f'\nForam processados {len(salarios)} colaboradores')
 print(f'Total gasto com abonos: R$ {sum(abono):.2f}')
