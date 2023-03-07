@@ -38,8 +38,12 @@ gas = float(input('Digite o preço do combustivel: R$'))
 modelos =['Fusca', 'Gol', 'Uno', 'Vectra', 'Peugeout' ]
 consumo = [7,10,12.5,9,14.5]
 for i in range(len(modelos)):
-    print(f'Veiculo{i+1:>21}\nNome:{modelos[i]}\nKm por litro: {consumo[i]}')
+    print(f'Veiculo{i+1}\nNome:{modelos[i]}\nKm por litro: {consumo[i]}')
 
-print('Relatório final')
+print('\nRelatório final')
+print('===============')
+print(f'\n{"No.":<5}{"Modelo":<10}{"Consumo":<10}{"Quantidade":<15}{"Total"}')
+print(f'{"para 1000Km":>36}{"para 1000Km":>15}')
+print(f'{"---":<5}{"------":<10}{"-------":<10}{"-----------":<15}{"---------"}')
 for i in range(len(modelos)):
-    print(f'{i+1} - {modelos[i]} {consumo[i]}{1000 / consumo[i]:.1f} litros {1000 / consumo[i] * gas:.2f}')
+    print(f'{i+1:<5}{modelos[i]:<10} {consumo[i]:>6}{1000 / consumo[i]:>8.1f} litros  R$ {1000 / consumo[i] * gas:.2f}')
