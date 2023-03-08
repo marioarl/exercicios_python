@@ -37,6 +37,7 @@ system('cls')
 gas = float(input('Digite o preço do combustivel: R$'))
 modelos =['Fusca', 'Gol', 'Uno', 'Vectra', 'Peugeout' ]
 consumo = [7,10,12.5,9,14.5]
+print('Comparativo de consuo de combustivel')
 for i in range(len(modelos)):
     print(f'Veiculo{i+1}\nNome:{modelos[i]}\nKm por litro: {consumo[i]}')
 
