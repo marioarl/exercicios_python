@@ -37,7 +37,8 @@ system('cls')
 gas = float(input('Digite o preço do combustivel: R$'))
 modelos =['Fusca', 'Gol', 'Uno', 'Vectra', 'Peugeout' ]
 consumo = [7,10,12.5,9,14.5]
-print('Comparativo de consuo de combustivel')
+menorQtdComb = 0
+modelo_menor_qtd = ""
 for i in range(len(modelos)):
     print(f'Veiculo{i+1}\nNome:{modelos[i]}\nKm por litro: {consumo[i]}')
 
@@ -48,3 +49,11 @@ print(f'{"para 1000Km":>36}{"para 1000Km":>15}')
 print(f'{"---":<5}{"------":<10}{"-------":<10}{"-----------":<15}{"---------"}')
 for i in range(len(modelos)):
     print(f'{i+1:<5}{modelos[i]:<10} {consumo[i]:>6}{1000 / consumo[i]:>8.1f} litros  R$ {1000 / consumo[i] * gas:.2f}')
+    if i == 0:
+        menorQtdComb = 1000 / consumo[i]
+        modelo_menor_qtd = modelos[i]
+    else:
+        if 1000 / consumo[i] < menorQtdComb:
+            modelo_menor_qtd = modelos[i]
+
+print(f'O menor consumo é do {modelo_menor_qtd}')
