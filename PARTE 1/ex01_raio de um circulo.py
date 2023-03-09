@@ -7,4 +7,4 @@ init(autoreset=True)
 from math import pi
 r = float(input('Digite o raio do circulo: '))
 area = pi * (r**2)
-print(f'A area do circulo de raio {r} é igual {Fore.RED}{area:.2f}')
+print(f'A área do circulo de raio {r} é igual {Fore.RED}{area:.2f}')
