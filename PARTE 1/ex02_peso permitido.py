@@ -1,6 +1,6 @@
 '''
 Credito : https://wiki.python.org.br/EstruturaSequencial
-Joao Papo-de -Pescador, homem de bem, comprou um computador para controlar o rendimento diario
+Joao Papo-de -Pescador, homem de bem, comprou um computador para controlar o rendimento diário
 de seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento
 de pesca do estado de São Paulo (50 quilos) deve pagar uma multa de R$4,00 por quilo excedente.
 Joao precisa que voce faça um programa que leia a variavel peso(peso dos peixes) e calcule o excesso.
