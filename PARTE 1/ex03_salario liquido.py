@@ -1,6 +1,6 @@
 '''
 Credito : https://wiki.python.org.br/EstruturaSequencial
-Faça um programa que pergunte quanto voce ganha por hora e o numero de horas trabaçhadas no mes.
+Faça um programa que pergunte quanto voce ganha por hora e o número de horas trabaçhadas no mes.
 Calcule e mostre o total do seu salario no referido mes, sabendo-se que sao descontados 11% para 
 o Imposto de Renda, 8% para o INSS e 5% para o sindicato e faça conforme abaixo:
 a) salario bruto
