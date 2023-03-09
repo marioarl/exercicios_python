@@ -1,5 +1,5 @@
 '''
-Faça um programa que peça um certa quantidade de notas e calcule a media do aluno.
+Faça um programa que peça um certa quantidade de notas e calcule a média do aluno.
 O programa será capaz de identificar a quantidade de notas e calcular a media.
 '''
 
