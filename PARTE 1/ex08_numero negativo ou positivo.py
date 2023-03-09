@@ -4,7 +4,7 @@ Faça um programa que peça um valor e mostre na tela se o valor é positivo ou 
 '''
 
 num = float(input('Digite um valor: '))
-print(f'O numero {num} é ', end="")
+print(f'O número {num} é ', end="")
 if num < 0:
     print('NEGATIVO')
 else:
