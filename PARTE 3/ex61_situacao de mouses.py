@@ -29,7 +29,7 @@ desc = ['Necessita da esfera', 'Necessita de limpeza', 'Necessita troca de cabo 
 
 while True:
     print('===== SITUAÇÃO DOS MOUSES =====')
-    print(Fore.YELLOW + '[ 1 ] Necessita da esfera\n[ 2 ] Necessita de limpeza\n[ 3 ] Necessita troca de cabo ou conector\n[ 4 ] Quebrado ou inutilizado')
+    print(Fore.YELLOW + '[ 1 ] Necessita da esfera\n[ 2 ] Necessita limpeza\n[ 3 ] Necessita troca de cabo ou conector\n[ 4 ] Quebrado ou inutilizado')
     while True:
         defeito = int(input('>>>>Opção (0 ENCERRA) ==>  '))
         if defeito >=0 and defeito <=4:
