@@ -7,8 +7,6 @@ Faça um programa que simule um lançamento de dados. Lance o dado 100 vezes e a
 from os import system
 from random import randint
 from collections import Counter
-from colorama import Fore, init
-init(autoreset=True)
 
 system('cls')
 def aleatorio(ini, fim):
