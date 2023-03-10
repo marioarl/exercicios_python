@@ -25,7 +25,7 @@ contagem = Counter(resultados)
 print('RESULTADO DOS DADOS')
 print('===================')
 for n, q in contagem.items():
-    print(f'O numero {n} foi sorteado {q} vezes.')
+    print(f'O número {n} foi sorteado {q} vezes.')
 
 
 
