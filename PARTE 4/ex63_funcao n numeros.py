@@ -18,6 +18,6 @@ def numeros(n):
 
 
 
-n = int(input('Digite um numero: '))
+n = int(input('Digite um número: '))
 numeros(n)
 
