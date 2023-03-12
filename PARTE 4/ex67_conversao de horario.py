@@ -36,8 +36,11 @@ while True:
         if h >=0 and h <=23:
             break
         print('Digite um horario entre 0 e 23')
-    m = int(input('Digite os minutos (0-59):'))
-
+    while True:
+        m = int(input('Digite os minutos (0-59):'))
+        if m >=0 and m <=59:
+            break
+        print('Digite os minutos entre 0 e 59')
     horario_convertido = convHora(h,m)
     print(Fore.YELLOW + 'HORARIO CONVERTIDO')
     imprime_horario(horario_convertido)
