@@ -8,6 +8,8 @@ Registre a informação A.M./P.M. como um valor A para A.M. e P para P.M.
 Assim, a função para efetuar as conversões terá um parâmetro formal para registrar se é A.M. ou P.M. Inclua um loop que permita que o usuário repita esse cálculo para novos valores de entrada todas as vezes que desejar.
 '''
 from os import system
+from colorama import Fore, init
+init(autoreset=True)
 system('cls')
 
 def convHora(h,m):
@@ -26,14 +28,14 @@ def convHora(h,m):
     return horario, m, periodo
 
 def imprime_horario(horario):
-    print(f'{horario[0]}:{horario[1]}  {horario[2]}.M.')
+    print(f'{Fore.CYAN}{horario[0]}:{horario[1]}  {horario[2]}.M.')
 
 while True:
     h = int(input('Digite a hora (0-23): '))
     m = int(input('Digite os minutos (0-59):'))
 
     horario_convertido = convHora(h,m)
-    print('HORARIO CONVERTIDO')
+    print(Fore.YELLOW + 'HORARIO CONVERTIDO')
     imprime_horario(horario_convertido)
 
     op = str(input('Deseja converter outro horario? (S/N) ')).strip().upper()
