@@ -38,7 +38,10 @@ while True:
     print(Fore.YELLOW + 'HORARIO CONVERTIDO')
     imprime_horario(horario_convertido)
 
-    op = str(input('Deseja converter outro horario? (S/N) ')).strip().upper()
+    while True:
+        op = str(input('Deseja converter outro horario? (S/N) ')).strip().upper()
+        if op in 'SN':
+            break
     system('cls')
     if op == 'N':
         break
