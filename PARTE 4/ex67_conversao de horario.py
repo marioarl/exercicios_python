@@ -35,7 +35,7 @@ while True:
         h = int(input('Digite a hora (0-23): '))
         if h >=0 and h <=23:
             break
-        print('Digite um horario entre 0 e 23')
+        print(Fore.RED  + 'Digite um horario entre 0 e 23')
     while True:
         m = int(input('Digite os minutos (0-59):'))
         if m >=0 and m <=59:
