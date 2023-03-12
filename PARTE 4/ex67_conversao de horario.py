@@ -31,7 +31,11 @@ def imprime_horario(horario):
     print(f'{Fore.CYAN}{horario[0]}:{horario[1]}  {horario[2]}.M.')
 
 while True:
-    h = int(input('Digite a hora (0-23): '))
+    while True:
+        h = int(input('Digite a hora (0-23): '))
+        if h >=0 and h <=23:
+            break
+        print('Digite um horario entre 0 e 23')
     m = int(input('Digite os minutos (0-59):'))
 
     horario_convertido = convHora(h,m)
