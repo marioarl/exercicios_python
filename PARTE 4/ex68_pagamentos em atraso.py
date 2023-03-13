@@ -36,7 +36,7 @@ while True:
     sleep(2)
     system('cls')
 
-print('===== RELATORIO DIÁRIO =====')
+print('============== RELATORIO DIÁRIO ==============')
 print(f'Quatidade de prestações pagas.....: {len(tot)}')
 print(f'Valor total das prestações pagas..: R$ {sum(tot):.2f}')
     
