@@ -32,7 +32,7 @@ while True:
     if d == 0:
         print(f'Valor a ser pago sem multa ou juros ao dia: {Fore.GREEN}R$ {valorPagamento(valor,d):.2f}')
     else:
-        print(f'Valor a ser pago com multa de 3% e 0.1% de juros ao dia: R$ {valorPagamento(valor,d):.2f}')
+        print(f'Valor a ser pago com multa de 3% e 0.1% de juros ao dia: {Fore.RED}R$ {valorPagamento(valor,d):.2f}')
     sleep(2)
     system('cls')
 
