@@ -11,5 +11,13 @@ system('cls')
 def qtdDigitos(num):
     return len(str(num))
 
+def contarDigitos(n): #Funcao utilizando While e um contador
+    contador = 1
+    while n >=10:
+        n = n // 10
+        contador += 1
+    return contador
+
 n = int(input('Digite um numero inteiro: '))
 print(f'O numero {n} contém {qtdDigitos(n)} digitos')
+print(f'O numero {n} contém {contarDigitos(n)} digitos')
