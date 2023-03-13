@@ -29,7 +29,10 @@ while True:
         break
     d = int(input('Quantos dias atrasado: '))
     tot.append(valorPagamento(valor,d))
-    print(f'Valor a ser pago com multa de 3% e 0.1% de juros ao dia: R$ {valorPagamento(valor,d):.2f}')
+    if d == 0:
+        print(f'Valor a ser pago sem multa ou juros ao dia: R$ {valorPagamento(valor,d):.2f}')
+    else:
+        print(f'Valor a ser pago com multa de 3% e 0.1% de juros ao dia: R$ {valorPagamento(valor,d):.2f}')
     sleep(2)
     system('cls')
 
