@@ -11,5 +11,5 @@ def inverso(num):
     rev = x[::-1]
     return rev
 
-n = int(input('Digite um numero inteiro: '))
+n = int(input('Digite um número inteiro: '))
 print(f'O reverso do numero digitado {n} é {inverso(n)}')
