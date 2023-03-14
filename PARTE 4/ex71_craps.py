@@ -34,7 +34,11 @@ while True:
         if aposta <= saldo:
             break
         print('VALOR APOSTADO ACIMA DO SEU SALDO')
-    tipo = str(input('[P] - Ponto\n[N] - Natural\n>>> ')).strip().upper()
+    while True:
+        tipo = str(input('[P] - Ponto\n[N] - Natural\n>>> ')).strip().upper()
+        if tipo in "PN":
+            break
+        print('Escolha P ou N!')
 
     print(dado1)
     print(dado2)
