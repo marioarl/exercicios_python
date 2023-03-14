@@ -18,7 +18,8 @@ def dados():
     dado = randint(1,6)
     return dado
 
-valor = 1000
+
+valor = float(input('Com qual valor voce quer entrar na mesa? R$ '))
 saldo = valor
 
 while True:
@@ -28,7 +29,11 @@ while True:
     total = dado1 + dado2
     print('========== JOGO DE CRAPS ==========')
     print(f'Saldo R$: {saldo:.2f}')
-    aposta = float(input('>>>Qual sua aposta? R$ '))
+    while True:
+        aposta = float(input('>>>Qual sua aposta? R$ '))
+        if aposta <= saldo:
+            break
+        print('VALOR APOSTADO ACIMA DO SEU SALDO')
     tipo = str(input('[P] - Ponto\n[N] - Natural\n>>> ')).strip().upper()
 
     print(dado1)
@@ -53,5 +58,6 @@ while True:
     input('Pressione enter para continuar')
     system('cls')
     if total == 2 or total == 3 or total == 12 or saldo <= 0:
+        print(f'SALDO FINAL: R$ {saldo:.2f}')
         break
 
