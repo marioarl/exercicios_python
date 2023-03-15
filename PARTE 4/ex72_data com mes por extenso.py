@@ -11,7 +11,7 @@ system('cls')
 def valida_data(dia, mes, ano):
     mes_extenso = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto',
        'Setembro', 'Outubro', 'Novembro', 'Dezembro']
-    #Verificando se o dia mes e ano foi digitado correto
+    #Verificando se o dia mes e ano foram digitados corretos
     if dia >31 or dia < 0 or mes < 1 or mes > 12 or ano < 1:
         valido1 = False
     else:
