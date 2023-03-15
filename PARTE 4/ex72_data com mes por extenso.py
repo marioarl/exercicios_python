@@ -18,6 +18,8 @@ def valida_data(dia, mes, ano):
         valido1 = True
     
     #Verificando se os meses estao com os dias corretos
+    
+    #Se os meses de janeiro,março,maio,julho,agosto,outubro e dezembro tem 31 dias
     if mes in [1,3,5,7,8,10,12] and dia<=31:   
         valido2 = True
     elif mes in [2] and dia <=29:
