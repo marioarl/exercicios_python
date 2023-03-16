@@ -29,7 +29,7 @@ while True:
     dado1 = dados()
     dado2 = dados()
     total = dado1 + dado2
-    print('========== JOGO DE CRAPS ==========')
+    print(Fore.YELLOW + '========== JOGO DE CRAPS ==========')
     print(f'Saldo R$: {saldo:.2f}')
     while True:
         aposta = float(input('>>>Qual sua aposta? R$ '))
