@@ -37,7 +37,7 @@ def valida_data(dia, mes, ano):
         valido2 = False
     #Verifica se os validadores estao em TRUE
     if valido1 and valido2:
-        print(f'Data por extenso: {dia:02d} de {mes_extenso[m-1]} de {ano}')   
+        print(f'{Fore.CYAN}Data por extenso: {dia:02d} de {mes_extenso[m-1]} de {ano}')   
     else:
         print(Fore.RED + 'DATA INVÁLIDA')
     
