@@ -12,6 +12,8 @@ Seu objetivo agora é continuar jogando e escolhendo P(ponto) ou N(Natural) e jo
 #NÃO TERMINADO
 from os import system
 from random import randint
+from colorama import Fore, init
+init(autoreset=True)
 system('cls')
 
 def dados():
