@@ -39,7 +39,7 @@ def valida_data(dia, mes, ano):
     if valido1 and valido2:
         print(f'Data por extenso: {dia:02d} de {mes_extenso[m-1]} de {ano}')   
     else:
-        print('DATA INVÁLIDA')
+        print(Fore.RED + 'DATA INVÁLIDA')
     
 
 
