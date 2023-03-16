@@ -35,7 +35,7 @@ while True:
         aposta = float(input('>>>Qual sua aposta? R$ '))
         if aposta <= saldo:
             break
-        print('VALOR APOSTADO ACIMA DO SEU SALDO')
+        print(Fore.RED + 'VALOR APOSTADO ACIMA DO SEU SALDO')
     while True:
         tipo = str(input('[P] - Ponto\n[N] - Natural\n>>> ')).strip().upper()
         if tipo in "PN":
