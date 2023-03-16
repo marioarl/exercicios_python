@@ -30,7 +30,7 @@ while True:
     dado2 = dados()
     total = dado1 + dado2
     print(Fore.YELLOW + '========== JOGO DE CRAPS ==========')
-    print(f'Saldo R$: {saldo:.2f}')
+    print(f'{Fore.GREEN}Saldo R$: {saldo:.2f}')
     while True:
         aposta = float(input('>>>Qual sua aposta? R$ '))
         if aposta <= saldo:
