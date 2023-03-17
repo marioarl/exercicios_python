@@ -5,6 +5,8 @@ Desenha moldura. Construa uma função que desenhe um retângulo usando os carac
 '''
 from os import system
 from time import sleep
+from colorama import Fore, init
+init(autoreset=True)
 system('cls')
 
 
