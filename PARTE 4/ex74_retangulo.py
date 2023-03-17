@@ -23,4 +23,6 @@ def desenha_retangulo(linhas=1, colunas=1):
     print('+' + '-'*(colunas-2) + '+')
 
 print('===== DESENHAR UM RETANGULO =====')
-desenha_retangulo(5,5)
+l = int(input('Digite o numero de linhas: '))
+c = int(input('Digite o numero de colunas:'))
+desenha_retangulo(l,c)
