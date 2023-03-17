@@ -15,7 +15,7 @@ def desenha_retangulo(linhas=1, colunas=1):
         linhas = 1
     elif linhas > 20:
         linhas = 20
-        print('Desculpe, infelizmente só posso desenhar no máximo 20 linhas')
+        print(Fore.RED + 'Desculpe, infelizmente só posso desenhar no máximo 20 linhas')
         sleep(2)
     if colunas < 1:
         colunas = 1
