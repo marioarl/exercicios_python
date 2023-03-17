@@ -21,7 +21,7 @@ def desenha_retangulo(linhas=1, colunas=1):
         colunas = 1
     elif colunas > 20:
         colunas = 20
-        print('Desculpe, infelizmente só posso desenhar no máximo 20 colunas')
+        print(Fore.RED + 'Desculpe, infelizmente só posso desenhar no máximo 20 colunas')
         sleep(2)
     print('+' + '-'*(colunas-2) + '+')
     for i in range(linhas-2):
