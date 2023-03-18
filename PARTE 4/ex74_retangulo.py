@@ -33,6 +33,6 @@ print('===== DESENHAR UM RETANGULO =====')
 
 l = int(input('Digite o numero de linhas: '))
 c = int(input('Digite o numero de colunas:'))
-print('Escolha a cor:\n[ 1 ] - VERMELHO\n[ 2 ] - PRETO\n[ 3 ] - AZUL\n[ 4 ] - CIANO\n[ 5 ] - VERDE\n[ 6 ] - VIOLETA\n[ 7 ] - BRANCO\n[ 8 ] - AMARELO')
+print(f'Escolha a cor:\n[ 1 ] - VERMELHO\n[ 2 ] - PRETO\n[ 3 ] - AZUL\n[ 4 ] - CIANO\n[ 5 ] - VERDE\n[ 6 ] - VIOLETA\n[ 7 ] - BRANCO\n[ 8 ] - AMARELO')
 cor = int(input('Escolha a cor do retangulo: '))
 desenha_retangulo(l,c, cor)
