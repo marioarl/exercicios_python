@@ -17,7 +17,7 @@ def embaralha(palavra):
     embaralhada = ''.join(lista)
     return embaralhada
 
-
+print('===== EMBARALHA PALAVRAS =====')
 palavra = str(input('Digite uma palavra: '))
 print(f'A palavra que voce digitou foi embaralhada: {embaralha(palavra)}')
 
