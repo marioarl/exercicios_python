@@ -35,4 +35,4 @@ else:
 if string1 != string2:
     print(Fore.RED + 'As duas strings possuem conteudo diferente')
 else:
-    print('As duas strings possuem conteudo igual')
+    print(Fore.MAGENTA + 'As duas strings possuem conteudo igual')
