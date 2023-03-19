@@ -30,7 +30,7 @@ print(f'Tamanho de {string2}: {len(string2)}')
 if len(string1) != len(string2):
     print(Fore.RED + 'As duas strings são de tamanhos diferentes')
 else:
-    print('As duas strings tem o mesmo tamanho')
+    print(Fore.MAGENTA + 'As duas strings tem o mesmo tamanho')
 
 if string1 != string2:
     print(Fore.RED + 'As duas strings possuem conteudo diferente')
