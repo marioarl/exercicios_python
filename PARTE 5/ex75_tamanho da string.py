@@ -21,7 +21,7 @@ system('cls')
 string1 = str(input('Digite algo: ')).strip()
 string2 = str(input('Digite algo: ')).strip()
 
-print('Compara duas strings')
+print('\n\nCompara duas strings')
 print(f'String 1: {string1}')
 print(f'String 2: {string2}')
 print(f'Tamanho de {string1}: {len(string1)}')
