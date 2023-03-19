@@ -33,6 +33,6 @@ else:
     print('As duas strings tem o mesmo tamanho')
 
 if string1 != string2:
-    print('As duas strings possuem conteudo diferente')
+    print(Fore.RED + 'As duas strings possuem conteudo diferente')
 else:
     print('As duas strings possuem conteudo igual')
