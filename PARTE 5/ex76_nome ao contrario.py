@@ -6,6 +6,7 @@ Faça um programa que permita ao usuário digitar o seu nome e em seguida mostre
 Dica: lembre que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas.
 '''
 from os import system
+from colorama import Fore, init
 system('cls')
 
 print('===== NOME AO CONTRARIO =====')
