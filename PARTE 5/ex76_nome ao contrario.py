@@ -12,5 +12,11 @@ system('cls')
 
 print(Fore.BLUE + '===== NOME AO CONTRARIO =====')
 nome = str(input('Digite seu nome: ')).strip()
-print(nome.upper()[::-1])
+opc = str(input('Escolha as opções:\n[ M ] - MAIUSCULO\n[ m ] - minusculo\n>>> '))
+if opc == 'm':
+    print(nome.lower()[::-1])    
+elif opc == 'M':
+    print(nome.upper()[::-1])
+else:
+    print('OPÇÃO INVÁLIDA')
 
