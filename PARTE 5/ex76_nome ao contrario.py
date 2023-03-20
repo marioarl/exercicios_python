@@ -16,7 +16,7 @@ opc = str(input('Escolha as opções:\n[ M ] - MAIUSCULO\n[ m ] - minusculo\n>>>
 if opc == 'm':
     print(Fore.YELLOW + nome.lower()[::-1])    
 elif opc == 'M':
-    print(nome.upper()[::-1])
+    print(Fore.GREEN + nome.upper()[::-1])
 else:
     print(Fore.RED + 'OPÇÃO INVÁLIDA')
 
