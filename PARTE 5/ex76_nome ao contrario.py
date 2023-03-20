@@ -10,7 +10,7 @@ from colorama import Fore, init
 init(autoreset=True)
 system('cls')
 
-print('===== NOME AO CONTRARIO =====')
+print(Fore.BLUE + '===== NOME AO CONTRARIO =====')
 nome = str(input('Digite seu nome: ')).strip()
 print(nome.upper()[::-1])
 
