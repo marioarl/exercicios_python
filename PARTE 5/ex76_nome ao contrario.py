@@ -7,6 +7,7 @@ Dica: lembre que ao informar o nome o usuário pode digitar letras maiúsculas o
 '''
 from os import system
 from colorama import Fore, init
+init(autoreset=True)
 system('cls')
 
 print('===== NOME AO CONTRARIO =====')
