@@ -18,5 +18,5 @@ if opc == 'm':
 elif opc == 'M':
     print(nome.upper()[::-1])
 else:
-    print('OPÇÃO INVÁLIDA')
+    print(Fore.RED + 'OPÇÃO INVÁLIDA')
 
