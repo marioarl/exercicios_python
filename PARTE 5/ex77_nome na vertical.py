@@ -11,8 +11,10 @@ N
 O
 '''
 from os import system
+from random import randint
 system('cls')
 
+num = randint(0,4)
 nome = str(input('Digite seu nome:'))
 
 for p in nome:
