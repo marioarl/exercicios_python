@@ -11,6 +11,8 @@ N
 O
 '''
 from os import system
+from colorama import Fore, init
+init(autoreset=True)
 from random import randint
 system('cls')
 
