@@ -15,11 +15,11 @@ from colorama import Fore, init
 init(autoreset=True)
 from random import randint
 system('cls')
-
+cores = [Fore.RED, Fore.BLUE, Fore.GREEN, Fore.CYAN, Fore.YELLOW]
 num = randint(0,4)
 nome = str(input('Digite seu nome:'))
 
 for p in nome:
-    print(p)
+    print(cores[num] + p)
 
 
