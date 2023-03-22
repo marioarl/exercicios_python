@@ -12,6 +12,7 @@ F
 '''
 from os import system
 from random import randint
+from colorama import Fore, init
 system('cls')
 nome = str(input('Digite seu nome:'))
 
