@@ -11,6 +11,7 @@ FU
 F
 '''
 from os import system
+from random import randint
 system('cls')
 nome = str(input('Digite seu nome:'))
 
