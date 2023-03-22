@@ -20,7 +20,7 @@ num = randint(0,4)
 nome = str(input('Digite seu nome:'))
 
 for i in range(len(nome)):
-    print(nome[:len(nome)-i])
+    print(cores[num] + nome[:len(nome)-i])
 
     
 
