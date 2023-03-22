@@ -15,6 +15,7 @@ from random import randint
 from colorama import Fore, init
 init(autoreset=True)
 system('cls')
+cores = [Fore.RED, Fore.BLUE, Fore.GREEN, Fore.CYAN, Fore.YELLOW]
 nome = str(input('Digite seu nome:'))
 
 for i in range(len(nome)):
