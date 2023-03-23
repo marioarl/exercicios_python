@@ -8,6 +8,7 @@ Você nasceu em  29 de Outubro de 1973.
 '''
 from os import system
 from colorama import Fore, init
+init(autoreset=True)
 system('cls')
 
 dia = int(input('Dia: '))
