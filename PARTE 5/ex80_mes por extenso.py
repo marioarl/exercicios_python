@@ -17,7 +17,7 @@ ano = int(input('Ano: '))
 
 meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
 
-print(f'Voce nasceu em {Fore.CYAN}{dia} de {meses[mes-1]} de {ano}')
+print(f'Voce nasceu em {Fore.CYAN}{dia} de {Fore.YELLOW}{meses[mes-1]} de {ano}')
     
 
 
