@@ -17,7 +17,7 @@ print(f'O inverso de {frase} é {inverso}')
 if inverso == all:
     print(Fore.GREEN + 'A frase é um PALINDROMO!')
 else:
-    print('A frase NÃO É UM PALINDROMO!')
+    print(Fore.RED + 'A frase NÃO É UM PALINDROMO!')
     
 
 
