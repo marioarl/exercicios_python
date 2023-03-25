@@ -29,4 +29,4 @@ def por_extenso(num):
     return 'Numero fora do intervalo de 0 a 99'
 print(f'{Fore.BLUE}{"===== NUMERO POR EXTENSO ====="}')
 numero = int(input('Digite um numero entre 0 e 99: '))
-print(f'{por_extenso(numero)}')
+print(f'{Fore.YELLOW}{por_extenso(numero)}')
