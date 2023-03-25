@@ -5,6 +5,7 @@ Número por extenso. Escreva um programa que solicite ao usuário a digitação 
 '''
 from os import system
 from colorama import Fore, init
+init(autoreset=True)
 system('cls')
 
 def por_extenso(num):
