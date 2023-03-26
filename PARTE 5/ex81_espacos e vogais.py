@@ -7,7 +7,7 @@ quantos espaços em branco existem na frase.
 quantas vezes aparecem as vogais a, e, i, o, u.
 '''
 from os import system
-from colorama import Fore, int
+from colorama import Fore, init
 system('cls')
 
 frase = str(input('Digite uma frase: ')).strip().upper()
