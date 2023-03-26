@@ -13,7 +13,7 @@ system('cls')
 
 frase = str(input('Digite uma frase: ')).strip().upper()
 
-print(f'{"Espaços em branco:"} {frase.count(" ")}')
+print(f'{Fore.GREEN}{"Espaços em branco:"} {frase.count(" ")}')
 print(f'Vogal A: {frase.count("A")}')
 print(f'Vogal E: {frase.count("E")}')
 print(f'Vogal I: {frase.count("I")}')
