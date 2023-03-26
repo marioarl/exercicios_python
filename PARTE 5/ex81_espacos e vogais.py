@@ -8,6 +8,7 @@ quantas vezes aparecem as vogais a, e, i, o, u.
 '''
 from os import system
 from colorama import Fore, init
+init(autoreset=True)
 system('cls')
 
 frase = str(input('Digite uma frase: ')).strip().upper()
