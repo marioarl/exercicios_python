@@ -5,8 +5,8 @@ Faça um programa que peça 5 numeros e imprima qual é o maior e o menor
 from colorama import Fore, init
 init(autoreset=True)
 
-# Opção 1 => Utilizando as funcoes max(para achar o maior numero) e min(para o menor numero) e
-# colocando os numeros em uma lista
+#Opção 1 => Utilizando as funcoes max(para achar o maior numero) e min(para o menor numero) e
+#colocando os numeros em uma lista
 numeros = []
 for n in range(1,6):
     numeros.append(int(input(f'Digite o {n}o. numero: ')))
