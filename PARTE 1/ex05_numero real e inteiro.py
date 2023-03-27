@@ -1,6 +1,7 @@
 '''
 Credito : https://wiki.python.org.br/EstruturaSequencial
-Faça um programa que peça 2 numeros inteiros e um numero real e inserir no input destes numeros o tratamento de erro. Calcule e mostre:
+Faça um programa que peça 2 numeros inteiros e um numero real e inserir no input destes numeros o tratamento de erro. 
+Calcule e mostre:
 a) o produto do dobro do primeiro com a metade do segundo
 b) a soma do triplo do primeiro com o terceiro
 c) o terceiro elevado ao cubo
