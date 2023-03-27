@@ -7,7 +7,7 @@ a) salario bruto
 b) quanto pagou ao INSS
 c) quanto pagou ao sindicato
 d) o salario liquido
-e) calcule os descontos e o salario liquido
+e) calcule os descontos e o salário liquido
 '''
 from colorama import Fore, init, Back
 init(autoreset=True)
