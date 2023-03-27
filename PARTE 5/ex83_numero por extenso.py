@@ -1,7 +1,7 @@
 '''
 Credito : https://wiki.python.org.br/EstruturaSequencial ref: Ex Com Strings 10
 
-Número por extenso. Escreva um programa que solicite ao usuário a digitação de um número até 99 e imprima-o na tela por extenso.
+Número por extenso. Escreva um programa que solicite ao usuário a digitação de um número de 1 até 99 e imprima-o na tela por extenso.
 '''
 from os import system
 from colorama import Fore, init
