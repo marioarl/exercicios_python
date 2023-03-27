@@ -10,6 +10,6 @@ velo = int(input('Informe a velocidade do link (em Mbps): '))
 tempo = tam / (velo/8)
 print(f'Tempo estimado para baixar um arquivo de {Fore.RED}{tam}MB\033[m com velocidade de {Fore.GREEN}{velo}Mbps\033[m: ', end="")
 if tempo/60 < 1:
-    print('Menos de 1 minuto...')
+    print(Fore.BLUE+ 'Menos de 1 minuto...')
 else:
     print(f'{Fore.YELLOW}{tempo/60:.0f} minutos\033[m')
