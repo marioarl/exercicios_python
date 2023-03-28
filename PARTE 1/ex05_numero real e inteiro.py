@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial
+Credito : https://wiki.python.org.br/EstruturaSequencial Ex11
 Faça um programa que peça 2 numeros inteiros e um numero real e inserir no input destes numeros o tratamento de erro. 
 Calcule e mostre:
 a) o produto do dobro do primeiro com a metade do segundo
