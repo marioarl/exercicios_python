@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial
+Credito : https://wiki.python.org.br Estrutura Sequencial Ex6
 Faça um programa que peça o raio de um circulo, calcule e mostre sua área
 '''
 from colorama import Fore, init
