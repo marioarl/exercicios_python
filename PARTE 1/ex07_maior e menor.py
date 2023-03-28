@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial
+Credito : https://wiki.python.org.br/EstruturaDeDecisao Ex1
 Faça um programa que peça 5 numeros e imprima qual é o maior e o menor
 '''
 from colorama import Fore, init
