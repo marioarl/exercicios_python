@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial
+Credito : https://wiki.python.org.br/EstruturaDeDecisao Ex2
 Faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo
 '''
 
