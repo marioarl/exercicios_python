@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial
+Credito : https://wiki.python.org.br/EstruturaDeRepeticao Ex5
 Faça um programa que o usuario digite o nome de 2 Paises (A e B), a população de dois paises e suas taxas de crescimento, 
 mostre o resultado de quantos anos o pais A se iguale ou ultrapasse o pais B na quantidade de população. E tambem que 
 o programa encerre quando o usuario informar NÃO em continuar.
