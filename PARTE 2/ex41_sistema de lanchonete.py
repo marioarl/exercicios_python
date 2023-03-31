@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial
+Credito : https://wiki.python.org.br/EstruturaDeRepeticao Ex43
 
 O cardápio de uma lanchonete é o seguinte:
 
