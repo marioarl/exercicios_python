@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial
+Credito : https://wiki.python.org.br/EstruturaDeRepeticao Ex44
 
 Em uma eleição presidencial existem quatro candidatos. Os votos são informados por meio de código. 
 Os códigos utilizados são:
