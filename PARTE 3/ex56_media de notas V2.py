@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial ref: Ex listas 14
+Credito : https://wiki.python.org.br/ExerciciosListas ref: Ex listas 14
 
 Faça um programa que leia um número indeterminado de valores, correspondentes a notas, encerrando a entrada de dados quando for informado um valor igual a -1 (que não deve ser armazenado). Após esta entrada de dados, faça:
 Mostre a quantidade de valores que foram lidos;
