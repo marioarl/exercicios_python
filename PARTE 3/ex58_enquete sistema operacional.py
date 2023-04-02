@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial ref: Ex listas 18
+Credito : https://wiki.python.org.br/ExerciciosListas ref: Ex listas 18
 
 Uma empresa de pesquisas precisa tabular os resultados da seguinte enquete feita a um grande quantidade de organizações:
 "Qual o melhor Sistema Operacional para uso em servidores?"
