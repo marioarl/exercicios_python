@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial ref: Ex funcoes 1
+Credito : https://wiki.python.org.br/ExerciciosFuncoes ref: Ex funcoes 1
 
 Faça um programa para imprimir:
     1
