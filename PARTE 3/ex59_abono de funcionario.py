@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial ref: Ex listas 20
+Credito : https://wiki.python.org.br/ExerciciosListas ref: Ex listas 20
 
 As Organizações Tabajara resolveram dar um abono aos seus colaboradores em reconhecimento ao bom resultado alcançado durante o ano que passou. Para isto contratou você para desenvolver a aplicação que servirá como uma projeção de quanto será gasto com o pagamento deste abono.
 Após reuniões envolvendo a diretoria executiva, a diretoria financeira e os representantes do sindicato laboral, chegou-se a seguinte forma de cálculo:
