@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial ref: Ex funcoes 10
+Credito : https://wiki.python.org.br/ExerciciosFuncoes ref: Ex funcoes 10
 
 Jogo de Craps(ADAPTADO). Faça um programa de implemente um jogo de Craps. 
 O jogador lança um par de dados, obtendo um valor entre 2 e 12.
