@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial ref: Ex funcoes 8
+Credito : https://wiki.python.org.br/ExerciciosFuncoes ref: Ex funcoes 8
 
 Faça uma função que informe a quantidade de dígitos de um determinado número inteiro informado.    
 '''
