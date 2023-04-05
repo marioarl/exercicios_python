@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial ref: Ex Com Strings 7
+Credito : https://wiki.python.org.br/ExerciciosComStrings ref: Ex Com Strings 7
 
 Conta espaços e vogais. Dado uma string com uma frase informada pelo usuário (incluindo espaços em branco), conte:
 
