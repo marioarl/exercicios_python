@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial ref: Ex Com Strings 5
+Credito : https://wiki.python.org.br/ExerciciosComStrings ref: Ex Com Strings 5
 
 Nome na vertical em escada invertida. Altere o programa anterior de modo que a escada seja invertida.
 
