@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial ref: Ex Com Strings 6
+Credito : https://wiki.python.org.br/ExerciciosComStrings ref: Ex Com Strings 6
 
 Data por extenso. Faça um programa que solicite a data de nascimento (dd/mm/aaaa) do usuário e imprima a data com o nome do mês por extenso.
 
