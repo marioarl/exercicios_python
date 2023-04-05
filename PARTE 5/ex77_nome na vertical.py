@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial ref: Ex Com Strings 3
+Credito : https://wiki.python.org.br/ExerciciosComStrings ref: Ex Com Strings 3
 
 Nome na vertical. Faça um programa que solicite o nome do usuário e imprima-o na vertical.
 
