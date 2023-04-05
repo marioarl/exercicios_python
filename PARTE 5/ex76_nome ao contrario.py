@@ -1,5 +1,5 @@
 '''
-Credito : https://wiki.python.org.br/EstruturaSequencial ref: Ex Com Strings 2
+Credito : https://wiki.python.org.br/ExerciciosComStrings ref: Ex Com Strings 2
 
 Nome ao contrário em maiúsculas. 
 Faça um programa que permita ao usuário digitar o seu nome e em seguida mostre o nome do usuário de trás para frente utilizando somente letras maiúsculas.
