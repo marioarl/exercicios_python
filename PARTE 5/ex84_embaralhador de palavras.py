@@ -7,6 +7,7 @@ Desenvolva um jogo em que o usuário tenha que adivinhar uma palavra que será m
 from os import system
 from random import shuffle, randint
 from time import sleep
+from colorama import Fore, init
 system('cls')
 
 def escolher_palavra():
