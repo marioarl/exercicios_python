@@ -43,7 +43,7 @@ while True:
             print(Fore.RED + 'VOCE NÃO ACERTOU!!!')
             print(f'A palavra era: {escolhida}')    
         break
-    print('ERRADO!! Tente novamente!')
+    print(Fore.RED + 'ERRADO!! Tente novamente!')
     tentativas -= 1
     sleep(2)
     system('cls')
