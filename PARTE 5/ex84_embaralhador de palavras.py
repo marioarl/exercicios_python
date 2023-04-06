@@ -33,7 +33,7 @@ acertou = 0
 while True:
     print(Fore.YELLOW + '##### DESCUBRA A PALAVRA EMBARALHADA #####')
     print(f'\nA PALAVRA É : {embaralhada}')
-    print(f'TENTATIVAS {tentativas}')
+    print(f'TENTATIVAS {Fore.GREEN}{tentativas}')
     jogador = str(input('\n\nDigite a palavra: ')).strip().upper()
     acertou += 1
     if jogador == escolhida:
