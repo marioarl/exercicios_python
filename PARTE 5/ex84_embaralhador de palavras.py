@@ -31,7 +31,7 @@ tentativas = 6
 acertou = 0
 
 while True:
-    print('##### DESCUBRA A PALAVRA EMBARALHADA #####')
+    print(Fore.YELLOW + '##### DESCUBRA A PALAVRA EMBARALHADA #####')
     print(f'\nA PALAVRA É : {embaralhada}')
     print(f'TENTATIVAS {tentativas}')
     jogador = str(input('\n\nDigite a palavra: ')).strip().upper()
