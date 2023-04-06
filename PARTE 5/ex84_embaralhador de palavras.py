@@ -41,7 +41,7 @@ while True:
         print('tentativa'if acertou==1 else 'tentativas')
         if tentativas == 1:
             print(Fore.RED + 'VOCE NÃO ACERTOU!!!')
-            print(f'A palavra era: {escolhida}')    
+            print(f'A palavra era: {Fore.CYAN}{escolhida}')    
         break
     print(Fore.RED + 'ERRADO!! Tente novamente!')
     tentativas -= 1
