@@ -8,6 +8,7 @@ from os import system
 from random import shuffle, randint
 from time import sleep
 from colorama import Fore, init
+init(autoreset=True)
 system('cls')
 
 def escolher_palavra():
