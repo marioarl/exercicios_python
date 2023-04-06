@@ -40,7 +40,7 @@ while True:
         print(f'ACERTOU COM {acertou} ', end="")
         print('tentativa'if acertou==1 else 'tentativas')
         if tentativas == 1:
-            print('VOCE NÃO ACERTOU!!!')
+            print(Fore.RED + 'VOCE NÃO ACERTOU!!!')
             print(f'A palavra era: {escolhida}')    
         break
     print('ERRADO!! Tente novamente!')
