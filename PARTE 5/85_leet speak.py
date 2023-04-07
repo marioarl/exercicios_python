@@ -6,7 +6,7 @@ Leet é uma forma de se escrever o alfabeto latino usando outros símbolos em lu
 '''
 from os import system
 from colorama import Fore, init
-
+init(autoreset=True)
 system('cls')
 
 def leetSpeak(frase):
