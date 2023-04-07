@@ -13,6 +13,8 @@ def leetSpeak(frase):
     for l in lista_frase:
         indice = letras.index(l)
         print(leet[indice], end="")
+
+        
 letras = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z', ' ']
 leet = ['4','I3','[', ')', '3', '|=', '6', '#', '1', ',_|', '>|', '1', '[v]', '/v', '0', 'P', '9', 'I2', '5', '7', '(_)', '|/', 'vv', "><", 'j', '2', ' ']
 
