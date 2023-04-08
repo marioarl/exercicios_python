@@ -14,7 +14,7 @@ print(Fore.BLUE + '===== NOME AO CONTRARIO =====')
 nome = str(input('Digite seu nome: ')).strip()
 opc = str(input('Escolha as opções:\n[ M ] - MAIUSCULO\n[ m ] - minusculo\n>>> '))
 if opc == 'm':
-    print(Fore.YELLOW + nome.lower()[::-1])    
+    print(Fore.MAGENTA + nome.lower()[::-1])    
 elif opc == 'M':
     print(Fore.GREEN + nome.upper()[::-1])
 else:
