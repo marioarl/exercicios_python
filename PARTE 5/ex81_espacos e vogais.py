@@ -18,7 +18,7 @@ print(f'{Fore.BLUE}{"Vogal A:"} {frase.count("A")}')
 print(f'{Fore.YELLOW}{"Vogal E:"} {frase.count("E")}')
 print(f'{Fore.RED}{"Vogal I:"} {frase.count("I")}')
 print(f'{Fore.CYAN}{"Vogal O:"} {frase.count("O")}')
-print(f'{Fore.MAGENTA}{"Vogal U:"} {frase.count("U")}')
+print(f'{Fore.WHITE}{"Vogal U:"} {frase.count("U")}')
     
 
 
