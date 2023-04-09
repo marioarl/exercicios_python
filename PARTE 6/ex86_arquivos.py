@@ -20,3 +20,5 @@ with open("saida.txt", "w") as saida:
     # Escrever as linhas inválidas
     for linha in invalidas:
         saida.write(linha)
+
+    print("Arquivo saida.txt criado com sucesso!!")
