@@ -20,7 +20,7 @@ class Bola:
         self.cor = nova_cor
     
     def mostra_cor(self):
-        print("A cor da bola é:", self.cor)
+        print(Fore.GREEN + "A cor da bola é:", self.cor)
 
 b1 = Bola("vermelha", 50, "aço")
 b1.mostra_cor()
