@@ -8,6 +8,7 @@ Métodos: trocaCor e mostraCor
 '''
 from os import system
 from colorama import Fore, init
+init(autoreset=True)
 system("cls")
 class Bola:
     def __init__(self, cor, circunferencia, material):
