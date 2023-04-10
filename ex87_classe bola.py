@@ -7,7 +7,7 @@ Atributos: Cor, circunferência, material
 Métodos: trocaCor e mostraCor
 '''
 from os import system
-
+from colorama import Fore, init
 system("cls")
 class Bola:
     def __init__(self, cor, circunferencia, material):
