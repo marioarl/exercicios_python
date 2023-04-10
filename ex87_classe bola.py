@@ -7,6 +7,8 @@ Atributos: Cor, circunferência, material
 Métodos: trocaCor e mostraCor
 '''
 from os import system
+
+system("cls")
 class Bola:
     def __init__(self, cor, circunferencia, material):
         self.cor = cor
