@@ -2,7 +2,6 @@
 Credito : https://wiki.python.org.br/ExerciciosClasses ref: Ex1
 
 Classe Bola: Crie uma classe que modele uma bola:
-
 Atributos: Cor, circunferência, material
 Métodos: trocaCor e mostraCor
 '''
