@@ -10,6 +10,9 @@ import os
 from os import system
 if os.name == "posix":
     system("clear")
+else:
+    system("cls")
+
 class Quadrado:
     def __init__(self, lado):
         self.lado = lado
