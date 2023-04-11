@@ -8,7 +8,8 @@ Métodos: Mudar valor do Lado, Retornar valor do Lado e calcular Área;
 '''
 import os
 from os import system
-
+if os.name == "posix":
+    system("clear")
 class Quadrado:
     def __init__(self, lado):
         self.lado = lado
