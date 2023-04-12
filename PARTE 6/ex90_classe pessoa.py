@@ -10,6 +10,10 @@ import os
 from os import system
 if os.name == "posix":
     system("clear")
+else:
+    system("cls")
+
+
 class Pessoa:
     def __init__(self, nome, idade, peso, altura):
         self.nome = nome
