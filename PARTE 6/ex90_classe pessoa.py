@@ -8,6 +8,8 @@ Métodos: Envelhercer, engordar, emagrecer, crescer. Obs: Por padrão, a cada an
 '''
 import os
 from os import system
+if os.name == "posix":
+    system("clear")
 class Pessoa:
     def __init__(self, nome, idade, peso, altura):
         self.nome = nome
