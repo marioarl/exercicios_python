@@ -30,6 +30,7 @@ class Pessoa:
 
 
 pessoa1 = Pessoa('João', 18, 70, 170)
+print(pessoa1.nome, pessoa1.idade,pessoa1.peso, pessoa1.altura)
 pessoa1.envelhecer()
 pessoa1.engordar(5)
 pessoa1.crescer(2)
