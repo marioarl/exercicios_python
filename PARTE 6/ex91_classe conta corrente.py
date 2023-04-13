@@ -23,7 +23,7 @@ class ContaCorrente:
         else:
             self.saldo -= valor
 
-
+conta1 = ContaCorrente("202023", "Eurico da Silva")
 
             
 
