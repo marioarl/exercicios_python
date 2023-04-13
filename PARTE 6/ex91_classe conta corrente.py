@@ -24,6 +24,8 @@ class ContaCorrente:
             self.saldo -= valor
 
 conta1 = ContaCorrente("202023", "Eurico da Silva")
-
+print(f"Conta Corrente: {conta1.num}")
+print(f"Nome..........: {conta1.nome}")
+print(f"Saldo.........: {conta1.saldo}")
             
 
