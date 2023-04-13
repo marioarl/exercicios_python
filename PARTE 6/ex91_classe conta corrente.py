@@ -30,5 +30,6 @@ print(f"Saldo.........: {conta1.saldo}")
 
 conta2 = ContaCorrente("564787", "Jose Santos", "3000")
 print(f"Conta Corrente: {conta2.num}")
+print(f"Nome..........: {conta2.nome}")
             
 
