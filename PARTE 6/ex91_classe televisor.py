@@ -9,7 +9,10 @@ Considerando os canais abertos de TV que vao do 2 até o 13 e o volume do 0 ate 
 '''
 import os
 from os import system
-
+if os.name == "posix":
+    system("clear")
+else:
+    system("cls")
 class Televisor:
     def __init__(self):
         self.__canal = 2
