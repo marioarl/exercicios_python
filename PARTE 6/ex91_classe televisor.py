@@ -7,7 +7,7 @@ O usuário deve ser capaz de informar o número do canal e aumentar ou diminuir 
 Considerando os canais abertos de TV que vao do 2 até o 13 e o volume do 0 ate 10
 
 '''
-
+from os import system
 class Televisor:
     def __init__(self):
         self.__canal = 2
