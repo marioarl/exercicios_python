@@ -57,6 +57,7 @@ while True:
     elif opcao == "3":
         tv.diminuir_volume()
     elif opcao == "0":
+        print("TV DESLIGADA!")
         break
     else:
         print("Opção inválida!")
