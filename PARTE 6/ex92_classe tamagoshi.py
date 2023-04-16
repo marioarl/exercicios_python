@@ -16,12 +16,38 @@ else:
 class Tamagoshi:
     def __init__(self, nome, fome=0, saude=100, idade=0):
         self.nome = nome
-        self.fome = self.calcular_fome()
+        self.fome = fome
         self.saude = saude
         self.idade = idade
         self.humor = self.calcular_humor()
-    
-    def alterarNome(self,novo_nome):
+
+    def alterar_nome(self, novo_nome):
         self.nome = novo_nome
 
-tama = Tamagoshi("Yoshi")
+    def alterar_fome(self, nova_fome):
+        self.fome = nova_fome
+        self.humor = self.calcular_humor()
+
+    def alterar_saude(self, nova_saude):
+        self.saude = nova_saude
+        self.humor = self.calcular_humor()
+
+    def alterar_idade(self, nova_idade):
+        self.idade = nova_idade
+        self.humor = self.calcular_humor()
+
+    def retornar_nome(self):
+        return self.nome
+
+    def retornar_fome(self):
+        return self.fome
+
+    def retornar_saude(self):
+        return self.saude
+
+    def retornar_idade(self):
+        return self.idade
+
+    def calcular_humor(self):
+        return (self.saude + (100 - self.fome)) / 2
+
