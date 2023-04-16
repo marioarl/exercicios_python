@@ -51,3 +51,19 @@ class Tamagoshi:
     def calcular_humor(self):
         return (self.saude + (100 - self.fome)) / 2
 
+
+# Criando um Tamagoshi com nome "Tama"
+tama = Tamagoshi("Tama")
+
+# Alterando os valores de fome, saude e idade do Tamagoshi
+tama.alterar_fome(80)
+tama.alterar_saude(60)
+tama.alterar_idade(1)
+
+# Obtendo o nome, fome, saude, idade e humor do Tamagoshi
+nome = tama.retornar_nome()
+fome = tama.retornar_fome()
+saude = tama.retornar_saude()
+idade = tama.retornar_idade()
+humor = tama.calcular_humor()
+
