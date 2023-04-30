@@ -5,4 +5,5 @@ Escreva um programa que mostre todos os números entre 5 e 100 que são divisív
 '''
 for num in range(5, 100):
     if (num % 7 == 0 and num % 5 != 0):
-        print(num)
+        print(f"{num}", end=" ")
+print()
