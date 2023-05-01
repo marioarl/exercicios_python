@@ -8,4 +8,4 @@ init(autoreset=True)
 import sys
 print(f"Versao do Python {Fore.BLUE}{sys.version}")
 
-print(f"Informação da versao instalada {sys.version_info}")
+print(f"Informação da versao instalada {Fore.RED}{sys.version_info}")
