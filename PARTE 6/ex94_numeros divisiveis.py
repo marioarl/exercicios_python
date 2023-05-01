@@ -8,5 +8,5 @@ from colorama import Fore, init
 init()
 for num in range(5, 100):
     if (num % 7 == 0 and num % 5 != 0):
-        print(f"{num}", end=" ")
+        print(f"{Fore.GREEN}{num}", end=" ")
 print()
