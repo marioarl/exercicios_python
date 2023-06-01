@@ -1,5 +1,9 @@
-import random
+''''
+Crie um jogo de 21 dentro de uma função
+'''
 
+
+import random
 def jogo_21():
     print("Bem-vindo ao jogo de 21!\n")
     while True:
