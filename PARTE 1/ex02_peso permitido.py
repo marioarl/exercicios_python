@@ -8,6 +8,7 @@ Joao precisa que voce faça um programa que leia a variavel peso(peso dos peixes
 Gravar na variavel excesso a quantidade de quilos alem do limite e na variavel multa o valor da multa 
 que o Joao devera pagar. Imprima os dados do programa com as mensagens adequadas.
 '''
+
 from os import system
 from colorama import Fore, Style, init
 init(autoreset=True)
