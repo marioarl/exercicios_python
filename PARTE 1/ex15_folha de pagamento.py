@@ -19,6 +19,7 @@ FGTS (11%)                      : R$  121,00
 Total de descontos              : R$  165,00
 Salário Liquido                 : R$  935,00
 '''
+
 qtyHoras = float(input('Quantidade de horas trabalhadas em 1 mes: '))
 valorHora = float(input('Valor por Hora trabalhada: '))
 sBruto = qtyHoras * valorHora
