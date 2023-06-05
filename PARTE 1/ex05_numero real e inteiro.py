@@ -6,6 +6,7 @@ a) o produto do dobro do primeiro com a metade do segundo
 b) a soma do triplo do primeiro com o terceiro
 c) o terceiro elevado ao cubo
 '''
+
 from colorama import Fore, init
 init(autoreset=True)
 while True:
