@@ -13,8 +13,8 @@ Após o aumento ser realizado, informe na tela:
  - percentual de aumento aplicado;
  - valor do aumento;
  - novo salário, após o aumento.
-
 '''
+
 from colorama import Fore, init
 init(autoreset=True)
 aumento = 0
