@@ -2,6 +2,7 @@
 Jogo de adivinhação de um numero de 0 até 100, com uma variavel hint que diz se está quente ou frio o numero.
 Essa variavel hint é aleatoria de 1 até 5, em cada partida ela muda de numero
 '''
+
 from random import randint
 from os import system
 from time import sleep
