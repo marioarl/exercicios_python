@@ -12,6 +12,7 @@ Escreva um programa que peça o tipo e a quantidade de carne comprada pelo usuá
 contendo as informações da compra: 
 tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar.
 '''
+
 print('-='*30)
 print('HIPERMARCADO TABAJARA'.center(60))
 print('-='*30)
