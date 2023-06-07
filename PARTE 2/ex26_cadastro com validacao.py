@@ -7,6 +7,7 @@ Salário: maior que zero;
 Sexo: 'f' ou 'm';
 Estado Civil: 's', 'c', 'v', 'd';
 '''
+
 from colorama import Fore,init
 init(autoreset=True)
 
