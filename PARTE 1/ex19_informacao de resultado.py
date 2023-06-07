@@ -5,6 +5,7 @@ Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual ope
  - positivo ou negativo;
  - inteiro ou decimal.
 '''
+
 from colorama import Fore
 from os import system
 system('cls')
