@@ -6,6 +6,7 @@ o programa encerre quando o usuario informar NÃO em continuar.
 OBS: O programa deverá ser capaz de identificar se a populacao do pais A é maior que a do país B e 
 efetue os calculos corretos
 '''
+
 from colorama import init, Fore
 init(autoreset=True)
 from os import system
