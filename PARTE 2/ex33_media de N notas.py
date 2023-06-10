@@ -2,6 +2,7 @@
 Credito : https://wiki.python.org.br/EstruturaDeRepeticao Ex24
 Faça um programa que calcule o mostre a média aritmética de N notas.
 '''
+
 from colorama import init, Fore
 init(autoreset=True)
 media = soma = cont = 0
