@@ -4,6 +4,7 @@ Faça um programa que calcule o número médio de alunos por turma. Para isto, p
 quantidade de alunos para cada turma. 
 As turmas não podem ter mais de 40 alunos.
 '''
+
 from colorama import init, Fore
 init(autoreset=True)
 media = somaQtd = 0
