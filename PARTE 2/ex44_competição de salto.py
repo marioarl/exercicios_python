@@ -18,6 +18,7 @@ Média dos demais saltos: 5.9 m
 Resultado final:
 Rodrigo Curvêllo: 5.9 m
 '''
+
 from os import system
 from time import sleep
 system('cls')
