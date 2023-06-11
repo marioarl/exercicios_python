@@ -18,6 +18,7 @@ Gabarito da Prova:
 09 - B
 10 - A
 '''
+
 from os import system
 from colorama import init, Fore
 init(autoreset=True)
