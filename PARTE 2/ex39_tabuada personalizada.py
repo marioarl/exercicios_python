@@ -13,6 +13,7 @@ Vou montar a tabuada de 5 começando em 4 e terminando em 7:
 5 X 7 = 35
 Obs: Você deve verificar se o usuário não digitou o final menor que o inicial.
 '''
+
 from colorama import init, Fore
 init(autoreset=True)
 print('='*40)
