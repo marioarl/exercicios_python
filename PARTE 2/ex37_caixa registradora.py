@@ -15,6 +15,7 @@ Total: R$ 9.00
 Dinheiro: R$ 20.00
 Troco: R$ 11.00
 '''
+
 from os import system
 from time import sleep
 from colorama import init, Fore, Back, Style
