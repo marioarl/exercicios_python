@@ -16,6 +16,7 @@ A percentagem de votos nulos sobre o total de votos;
 A percentagem de votos em branco sobre o total de votos. 
 Para finalizar o conjunto de votos tem-se o valor zero.
 '''
+
 from os import system
 from time import sleep
 from colorama import init, Fore, Back
