@@ -17,6 +17,7 @@ Melhor nota: 9.9
 Pior nota: 7.5
 Média: 9,04
 '''
+
 from os import system
 somaNotas = 0
 atleta = str(input('Nome do Atleta: ')).strip()
