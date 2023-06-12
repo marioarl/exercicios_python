@@ -5,6 +5,7 @@ Faça um programa que receba a temperatura média de cada mês do ano e armazene
 2 Fevereiro, . . . ).
 
 '''
+
 from os import system
 from random import randrange
 system('cls')
