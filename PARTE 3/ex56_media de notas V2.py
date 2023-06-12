@@ -12,6 +12,7 @@ Calcule e mostre a quantidade de valores abaixo de sete;
 Encerre o programa com uma mensagem;
 
 '''
+
 from os import system
 from random import randrange
 from colorama import Fore, init, Style
