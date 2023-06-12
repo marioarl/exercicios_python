@@ -3,6 +3,7 @@ Credito : https://wiki.python.org.br/ExerciciosListas ref: Ex listas 9
 
 Faça um Programa que leia um vetor A com 10 números inteiros, calcule e mostre a soma dos quadrados dos elementos do vetor.
 '''
+
 from os import system
 system('cls')
 
