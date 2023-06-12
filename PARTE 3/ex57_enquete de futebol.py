@@ -41,6 +41,7 @@ Jogador Votos           %
 O melhor jogador foi o número 9, com 4 votos, correspondendo a 50% do total de votos.
 
 '''
+
 from os import system
 from collections  import Counter
 def percentual(votos, total):
