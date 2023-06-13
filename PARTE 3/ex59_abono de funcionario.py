@@ -36,6 +36,7 @@ Valor mínimo pago a 3 colaboradores
 Maior valor de abono pago: R$ 900.00
 
 '''
+
 from os import system
 from colorama import Fore, init
 init(autoreset=True)
