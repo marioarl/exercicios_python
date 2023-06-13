@@ -27,6 +27,7 @@ Total                    8800
 O Sistema Operacional mais votado foi o Unix, com 3500 votos, correspondendo a 40% dos votos.
 
 '''
+
 from os import system
 from collections import Counter
 from colorama import Fore, init
