@@ -9,6 +9,7 @@ Faça um programa para imprimir:
     n   n   n   n   n   n  ... n
 para um n informado pelo usuário. Use uma função que receba um valor n inteiro e imprima até a n-ésima linha.
 '''
+
 from os import system
 system('cls')
 
