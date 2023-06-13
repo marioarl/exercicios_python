@@ -31,6 +31,7 @@ Relatório Final
 O menor consumo é do peugeout.
 
 '''
+
 from os import system
 
 system('cls')
