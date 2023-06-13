@@ -17,6 +17,7 @@ Situação                        Quantidade              Percentual
 4- quebrado ou inutilizado              15                     15%
 
 '''
+
 from os import system
 from collections import Counter
 from colorama import Fore, init
