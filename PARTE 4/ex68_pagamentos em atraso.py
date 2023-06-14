@@ -6,6 +6,7 @@ Após a execução, o programa deverá voltar a pedir outro valor de prestação
 O cálculo do valor a ser pago é feito da seguinte forma: 
 Para pagamentos sem atraso, cobrar o valor da prestação, quando houver atraso, cobrar 3% de multa, mais 0,1% de juros por dia de atraso.    
 '''
+
 from os import system
 from time import sleep
 from colorama import Fore, init
