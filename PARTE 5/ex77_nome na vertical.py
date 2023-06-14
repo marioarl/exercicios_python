@@ -10,6 +10,7 @@ A
 N
 O
 '''
+
 from os import system
 from colorama import Fore, init
 init(autoreset=True)
