@@ -9,6 +9,7 @@ Se, na primeira jogada, você fez um 4, 5, 6, 8, 9 ou 10,este é seu "PONTO".
 Seu objetivo agora é continuar jogando e escolhendo P(ponto) ou N(Natural) e jogando os dados até que seu saldo fique zerado ou tire CRAPS!!
 
 '''
+
 #NÃO TERMINADO
 from os import system
 from random import randint
