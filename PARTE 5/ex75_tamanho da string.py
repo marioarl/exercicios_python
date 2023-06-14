@@ -12,6 +12,7 @@ Tamanho de "Brasil! Hexa 2006!": 18 caracteres
 As duas strings são de tamanhos diferentes.
 As duas strings possuem conteúdo diferente.
 '''
+
 from os import system
 from colorama import Fore, init
 init(autoreset=True)
