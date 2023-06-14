@@ -4,6 +4,7 @@ Credito : https://wiki.python.org.br/ExerciciosFuncoes ref: Ex funcoes 11
 Data com mês por extenso. 
 Construa uma função que receba uma data no formato DD/MM/AAAA e devolva uma string no formato D de mesPorExtenso de AAAA. Opcionalmente, valide a data e retorne NULL caso a data seja inválida.
 '''
+
 from os import system
 from colorama import Fore, init
 init(autoreset=True)
