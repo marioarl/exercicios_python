@@ -6,6 +6,7 @@ Conta espaços e vogais. Dado uma string com uma frase informada pelo usuário (
 quantos espaços em branco existem na frase.
 quantas vezes aparecem as vogais a, e, i, o, u.
 '''
+
 from os import system
 from colorama import Fore, init
 init(autoreset=True)
