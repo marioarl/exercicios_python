@@ -5,6 +5,7 @@ Classe Bola: Crie uma classe que modele uma bola:
 Atributos: Cor, circunferência, material
 Métodos: trocaCor e mostraCor
 '''
+
 from os import system
 from colorama import Fore, init
 init(autoreset=True)
