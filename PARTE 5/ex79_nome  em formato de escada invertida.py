@@ -10,6 +10,7 @@ FUL
 FU
 F
 '''
+
 from os import system
 from random import randint
 from colorama import Fore, init
