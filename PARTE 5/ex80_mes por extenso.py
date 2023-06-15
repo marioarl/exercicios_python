@@ -6,6 +6,7 @@ Data por extenso. Faça um programa que solicite a data de nascimento (dd/mm/aaa
 Data de Nascimento: 29/10/1973
 Você nasceu em  29 de Outubro de 1973.
 '''
+
 from os import system
 from colorama import Fore, init
 init(autoreset=True)
