@@ -10,6 +10,7 @@ FULA
 FULAN
 FULANO
 '''
+
 from os import system
 system('cls')
 
