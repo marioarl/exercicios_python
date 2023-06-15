@@ -26,10 +26,6 @@ O arquivo de saída possui o seguinte formato:
 192.168.0.256
 '''
 
-
-
-
-
 from colorama import Fore, init
 init(autoreset=True)
 #Criando o arquivo de entrada
