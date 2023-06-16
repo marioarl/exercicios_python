@@ -4,6 +4,7 @@ Credito: w3resource.com/python-exercices/python-basic-exercices.php Ex. 22
 Escreva um programa que contenha uma função que conte um numero qualquer dentro de uma lista
 
 '''
+
 def contador(n,nums):
     cont = 0
     for x in nums:
